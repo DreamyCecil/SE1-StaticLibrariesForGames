@@ -1,0 +1,4 @@
+LIBRARY GAMEMP 
+EXPORTS 
+GAME_Create 
+GAME_Destroy 

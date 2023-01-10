@@ -1,0 +1,153 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file AbzBaseMP.dll
+
+File Type: DLL
+
+  Section contains the following exports for AbzBaseMP.dll
+
+    00000000 characteristics
+    411F9F12 time date stamp Sun Aug 15 20:36:18 2004
+        0.00 version
+           1 ordinal base
+         127 number of functions
+         127 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000011B0 ??0?$CSTLCompatibleVector@J$01@@QAE@ABV0@@Z
+          2    1 000011B0 ??0?$CSTLCompatibleVector@J$01@@QAE@ABV?$Vector@J$01@@@Z
+          3    2 000012D0 ??0?$CSTLCompatibleVector@J$01@@QAE@J@Z
+          4    3 000012B0 ??0?$CSTLCompatibleVector@J$01@@QAE@JJ@Z
+          5    4 00001290 ??0?$CSTLCompatibleVector@J$01@@QAE@JJJ@Z
+          6    5 00001270 ??0?$CSTLCompatibleVector@J$01@@QAE@JJJJ@Z
+          7    6 00001300 ??0?$CSTLCompatibleVector@J$01@@QAE@XZ
+          8    7 000012E0 ??0?$CSTLCompatibleVector@J$02@@QAE@ABV0@@Z
+          9    8 000012E0 ??0?$CSTLCompatibleVector@J$02@@QAE@ABV?$Vector@J$02@@@Z
+         10    9 000012D0 ??0?$CSTLCompatibleVector@J$02@@QAE@J@Z
+         11    A 000012B0 ??0?$CSTLCompatibleVector@J$02@@QAE@JJ@Z
+         12    B 00001290 ??0?$CSTLCompatibleVector@J$02@@QAE@JJJ@Z
+         13    C 00001270 ??0?$CSTLCompatibleVector@J$02@@QAE@JJJJ@Z
+         14    D 00001300 ??0?$CSTLCompatibleVector@J$02@@QAE@XZ
+         15    E 00002C50 ??0CBinarySerializer@@QAE@ABV0@@Z
+         16    F 00002AC0 ??0CBinarySerializer@@QAE@XZ
+         17   10 000070F0 ??0CEntityDebugKit@@QAE@ABV0@@Z
+         18   11 00006A70 ??0CEntityDebugKit@@QAE@PAVCWorld@@@Z
+         19   12 00002960 ??0CLineIntersection@@QAE@ABV0@@Z
+         20   13 00001730 ??0CLineIntersection@@QAE@XZ
+         21   14 00005590 ??0CSerializationException@@QAE@ABV0@@Z
+         22   15 00005440 ??0CSerializationException@@QAE@V?$basic_string@DV?$char_traits@D@_STL@@V?$allocator@D@2@@_STL@@@Z
+         23   16 000052B0 ??0CSerializationException@@QAE@XZ
+         24   17 00005AC0 ??0CSerializer@@QAE@ABV0@@Z
+         25   18 00005A00 ??0CSerializer@@QAE@XZ
+         26   19 000066F0 ??0CSquareEntity@@QAE@ABV0@@Z
+         27   1A 000066D0 ??0CSquareEntity@@QAE@XZ
+         28   1B 00002BA0 ??1CBinarySerializer@@UAE@XZ
+         29   1C 00006AE0 ??1CEntityDebugKit@@UAE@XZ
+         30   1D 000017C0 ??1CLineIntersection@@UAE@XZ
+         31   1E 00005110 ??1CSerializationException@@UAE@XZ
+         32   1F 00005A70 ??1CSerializer@@UAE@XZ
+         33   20 00006870 ??1CSquareEntity@@UAE@XZ
+         34   21 00001200 ??4?$CSTLCompatibleVector@J$01@@QAEAAV0@ABV0@@Z
+         35   22 000011D0 ??4?$CSTLCompatibleVector@J$01@@QAEAAV0@ABV?$Vector@J$01@@@Z
+         36   23 00001340 ??4?$CSTLCompatibleVector@J$02@@QAEAAV0@ABV0@@Z
+         37   24 00001310 ??4?$CSTLCompatibleVector@J$02@@QAEAAV0@ABV?$Vector@J$02@@@Z
+         38   25 00002CD0 ??4CBinarySerializer@@QAEAAV0@ABV0@@Z
+         39   26 00007220 ??4CEntityDebugKit@@QAEAAV0@ABV0@@Z
+         40   27 000029E0 ??4CLineIntersection@@QAEAAV0@ABV0@@Z
+         41   28 00005670 ??4CSerializationException@@UAEAAV0@ABV0@@Z
+         42   29 00002CD0 ??4CSerializer@@QAEAAV0@ABV0@@Z
+         43   2A 00006830 ??4CSquareEntity@@QAEAAV0@AAV0@@Z
+         44   2B 00001250 ??M?$CSTLCompatibleVector@J$01@@QBE_NV?$Vector@J$01@@@Z
+         45   2C 00001390 ??M?$CSTLCompatibleVector@J$02@@QBE_NV?$Vector@J$02@@@Z
+         46   2D 0002A2C8 ??_7CBinarySerializer@@6B@
+         47   2E 0002A48C ??_7CEntityDebugKit@@6B@
+         48   2F 0002A2AC ??_7CLineIntersection@@6B@
+         49   30 0002A314 ??_7CSerializationException@@6B@
+         50   31 0002A328 ??_7CSerializer@@6B@
+         51   32 0002A380 ??_7CSquareEntity@@6B@
+         52   33 0002A2A4 ?BOTTOM_MASK@CLineIntersection@@0HB
+         53   34 00001930 ?ClipLine@CLineIntersection@@QAEXAAV?$Vector@M$02@@0@Z
+         54   35 00005D70 ?Close@CSerializer@@QAEXXZ
+         55   36 000028E0 ?CreateMask@CLineIntersection@@AAEHABV?$Vector@M$02@@@Z
+         56   37 00006E10 ?Destroy@CEntityDebugKit@@QAEXPAVCEntity@@@Z
+         57   38 0003AD0C ?EMPTY_RESULT@CLineIntersection@@2V?$Vector@M$02@@B
+         58   39 000018F0 ?FindXIntersection@CLineIntersection@@QAEMABM@Z
+         59   3A 000018C0 ?FindZIntersection@CLineIntersection@@QAEMABM@Z
+         60   3B 00002840 ?GetA@CLineIntersection@@QAEMXZ
+         61   3C 00002850 ?GetB@CLineIntersection@@QAEMXZ
+         62   3D 00005F70 ?GetFileName@CSerializer@@IAE?AV?$basic_string@DV?$char_traits@D@_STL@@V?$allocator@D@2@@_STL@@XZ
+         63   3E 00005F60 ?GetFileStream@CSerializer@@IAEPAU_iobuf@@XZ
+         64   3F 000052A0 ?GetFormat@CBinarySerializer@@UAE?AW4SerialFormatType@SerialFormat@@XZ
+         65   40 00005230 ?GetFormat@CSerializer@@UAE?AW4SerialFormatType@SerialFormat@@XZ
+         66   41 00005EF0 ?HasEndOfFileBeenReached@CSerializer@@QAE_NXZ
+         67   42 0002A298 ?LEFT_MASK@CLineIntersection@@0HB
+         68   43 000063A0 ?LoadSKAModel@CSquareEntity@@QAEXVCTFileName@@@Z
+         69   44 000064E0 ?Main@CSquareEntity@@QAEHABVCEntityEvent@@@Z
+         70   45 00006430 ?MakeGreen@CSquareEntity@@QAEX_N@Z
+         71   46 0002A2A8 ?NO_MASK_SET@CLineIntersection@@0HB
+         72   47 00005AD0 ?Open@CSerializer@@QAEXPBDPAD@Z
+         73   48 00005B80 ?Open@CSerializer@@QAEXV?$basic_string@DV?$char_traits@D@_STL@@V?$allocator@D@2@@_STL@@PAD@Z
+         74   49 00006CA0 ?PlaceMarker@CEntityDebugKit@@QAEPAVCEntity@@V?$Vector@M$02@@00@Z
+         75   4A 00006B90 ?PlaceMarker@CEntityDebugKit@@QAEPAVCEntity@@V?$Vector@M$02@@0@Z
+         76   4B 00006C10 ?PlaceMarker@CEntityDebugKit@@QAEPAVCEntity@@V?$Vector@M$02@@@Z
+         77   4C 0002A29C ?RIGHT_MASK@CLineIntersection@@0HB
+         78   4D 00004580 ?ReadChar@CBinarySerializer@@UAEDXZ
+         79   4E 00005290 ?ReadChar@CSerializer@@UAEDXZ
+         80   4F 00004070 ?ReadCharPointer@CBinarySerializer@@UAEPBDXZ
+         81   50 00005230 ?ReadCharPointer@CSerializer@@UAEPBDXZ
+         82   51 00003BC0 ?ReadFLOAT3D@CBinarySerializer@@UAE?AV?$Vector@M$02@@XZ
+         83   52 00005250 ?ReadFLOAT3D@CSerializer@@UAE?AV?$Vector@M$02@@XZ
+         84   53 00003560 ?ReadFloat@CBinarySerializer@@UAEMXZ
+         85   54 000051F0 ?ReadFloat@CSerializer@@UAEMXZ
+         86   55 000036F0 ?ReadInt@CBinarySerializer@@UAEHXZ
+         87   56 00005200 ?ReadInt@CSerializer@@UAEHXZ
+         88   57 00003860 ?ReadInteger2D@CBinarySerializer@@UAE?AV?$CSTLCompatibleVector@J$01@@XZ
+         89   58 00005210 ?ReadInteger2D@CSerializer@@UAE?AV?$CSTLCompatibleVector@J$01@@XZ
+         90   59 00003F60 ?ReadString@CBinarySerializer@@UAEABV?$basic_string@DV?$char_traits@D@_STL@@V?$allocator@D@2@@_STL@@XZ
+         91   5A 00005280 ?ReadString@CSerializer@@UAEABV?$basic_string@DV?$char_traits@D@_STL@@V?$allocator@D@2@@_STL@@XZ
+         92   5B 00003DF0 ?ReadUnsignedInt@CBinarySerializer@@UAEIXZ
+         93   5C 00005230 ?ReadUnsignedInt@CSerializer@@UAEIXZ
+         94   5D 00002FC0 ?ReadUnsignedLong@CBinarySerializer@@QAEKXZ
+         95   5E 00001D60 ?RunTest@CLineIntersection@@SAXXZ
+         96   5F 00002800 ?SetAreaLimits@CLineIntersection@@QAEXABV?$Vector@M$02@@0@Z
+         97   60 00006290 ?SetDefaultProperties@CSquareEntity@@UAEXXZ
+         98   61 00001CC0 ?SetLine@CLineIntersection@@QAEXABV?$Vector@M$02@@0@Z
+         99   62 00006490 ?SetLocation@CSquareEntity@@QAEXV?$Vector@M$02@@@Z
+        100   63 000062C0 ?SetSize@CSquareEntity@@QAEXMMM@Z
+        101   64 0002A2A0 ?TOP_MASK@CLineIntersection@@0HB
+        102   65 000028C0 ?TestBottom@CLineIntersection@@AAEHABV?$Vector@M$02@@@Z
+        103   66 00001C40 ?TestHorizontal@CLineIntersection@@AAEXABHABMAAV?$Vector@M$02@@@Z
+        104   67 000017D0 ?TestIntersection@CLineIntersection@@QAE?AW4IntersectionResultEnum@1@XZ
+        105   68 00002860 ?TestLeft@CLineIntersection@@AAEHABV?$Vector@M$02@@@Z
+        106   69 00002880 ?TestRight@CLineIntersection@@AAEHABV?$Vector@M$02@@@Z
+        107   6A 000028A0 ?TestTop@CLineIntersection@@AAEHABV?$Vector@M$02@@@Z
+        108   6B 00001BD0 ?TestVertical@CLineIntersection@@AAEXABHABMAAV?$Vector@M$02@@@Z
+        109   6C 00004410 ?WriteChar@CBinarySerializer@@UAEXD@Z
+        110   6D 000051D0 ?WriteChar@CSerializer@@UAEXD@Z
+        111   6E 00004290 ?WriteCharPointer@CBinarySerializer@@UAEXPAD@Z
+        112   6F 000051D0 ?WriteCharPointer@CSerializer@@UAEXPAD@Z
+        113   70 00003B40 ?WriteFLOAT3D@CBinarySerializer@@UAEXV?$Vector@M$02@@@Z
+        114   71 00005240 ?WriteFLOAT3D@CSerializer@@UAEXV?$Vector@M$02@@@Z
+        115   72 00003130 ?WriteFloat@CBinarySerializer@@UAEXM@Z
+        116   73 000051D0 ?WriteFloat@CSerializer@@UAEXM@Z
+        117   74 00002CE0 ?WriteInt@CBinarySerializer@@UAEXH@Z
+        118   75 000051D0 ?WriteInt@CSerializer@@UAEXH@Z
+        119   76 000032A0 ?WriteInteger2D@CBinarySerializer@@UAEXV?$CSTLCompatibleVector@J$01@@@Z
+        120   77 000051E0 ?WriteInteger2D@CSerializer@@UAEXV?$CSTLCompatibleVector@J$01@@@Z
+        121   78 00004020 ?WriteString@CBinarySerializer@@UAEXAAV?$basic_string@DV?$char_traits@D@_STL@@V?$allocator@D@2@@_STL@@@Z
+        122   79 000051D0 ?WriteString@CSerializer@@UAEXAAV?$basic_string@DV?$char_traits@D@_STL@@V?$allocator@D@2@@_STL@@@Z
+        123   7A 00003C80 ?WriteUnsignedInt@CBinarySerializer@@UAEXI@Z
+        124   7B 000051D0 ?WriteUnsignedInt@CSerializer@@UAEXI@Z
+        125   7C 00002E50 ?WriteUnsignedLong@CBinarySerializer@@QAEXK@Z
+        126   7D 00005700 ?what@CSerializationException@@UBEPBDXZ
+        127   7E 00033420 CSquareEntity_DLLClass
+
+  Summary
+
+        F000 .data
+        9000 .rdata
+        4000 .reloc
+       29000 .text

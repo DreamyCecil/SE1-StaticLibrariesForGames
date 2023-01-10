@@ -1,0 +1,77 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Base.dll
+
+File Type: DLL
+
+  Section contains the following exports for Base.dll
+
+    00000000 characteristics
+    42DC2121 time date stamp Tue Jul 19 00:37:37 2005
+        0.00 version
+           1 ordinal base
+          51 number of functions
+          51 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000029F0 ??0CClassManager@base@cfgames@@AAE@XZ
+          2    1 00003020 ??0CClassManager@base@cfgames@@QAE@ABV012@@Z
+          3    2 00003380 ??0CClassManagerException@base@cfgames@@QAE@ABV012@@Z
+          4    3 00003310 ??0CClassManagerException@base@cfgames@@QAE@ABV?$basic_string@DV?$char_traits@D@_STL@@V?$allocator@D@2@@_STL@@@Z
+          5    4 00003570 ??0CObject@base@cfgames@@QAE@ABV012@@Z
+          6    5 00003550 ??0CObject@base@cfgames@@QAE@XZ
+          7    6 00004B90 ??0CRandomTable@base@cfgames@@QAE@HMM@Z
+          8    7 00001000 ??0_CActivatable@base@cfgames@@QAE@ABV012@@Z
+          9    8 00001140 ??0_CActivatable@base@cfgames@@QAE@XZ
+         10    9 00002600 ??1CClassManager@base@cfgames@@UAE@XZ
+         11    A 00003170 ??1CClassManagerException@base@cfgames@@UAE@XZ
+         12    B 00003560 ??1CObject@base@cfgames@@UAE@XZ
+         13    C 00004AB0 ??1CRandomTable@base@cfgames@@QAE@XZ
+         14    D 00001030 ??1_CActivatable@base@cfgames@@UAE@XZ
+         15    E 00002E30 ??4CClassManager@base@cfgames@@QAEAAV012@ABV012@@Z
+         16    F 00003400 ??4CClassManagerException@base@cfgames@@QAEAAV012@ABV012@@Z
+         17   10 00003580 ??4CObject@base@cfgames@@QAEAAV012@ABV012@@Z
+         18   11 00004A80 ??4CRandomTable@base@cfgames@@QAEAAV012@ABV012@@Z
+         19   12 00001020 ??4_CActivatable@base@cfgames@@QAEAAV012@ABV012@@Z
+         20   13 0002E188 ??_7CClassManager@base@cfgames@@6B@
+         21   14 0002E1CC ??_7CClassManagerException@base@cfgames@@6B@
+         22   15 0002E1F4 ??_7CObject@base@cfgames@@6B@
+         23   16 0002E130 ??_7_CActivatable@base@cfgames@@6B@
+         24   17 00001040 ?Activate@_CActivatable@base@cfgames@@UAEXXZ
+         25   18 000385A8 ?CLASS_CODE@CClassManagerException@base@cfgames@@2JB
+         26   19 000385B0 ?CLASS_CODE@CObject@base@cfgames@@2JB
+         27   1A 000360D8 ?CLASS_NAME@CClassManagerException@base@cfgames@@2PBDB
+         28   1B 000360DC ?CLASS_NAME@CObject@base@cfgames@@2PBDB
+         29   1C 00003590 ?Clone@CObject@base@cfgames@@UBEPAV123@XZ
+         30   1D 00001F00 ?CreateClone@CClassManager@base@cfgames@@QAEPAVCObject@23@ABJ@Z
+         31   1E 00001050 ?Deactivate@_CActivatable@base@cfgames@@UAEXXZ
+         32   1F 0002E14C ?ERROR_CLASS_CODE@CClassManager@base@cfgames@@2JB
+         33   20 00001C90 ?FindPrototype@CClassManager@base@cfgames@@QAEPBVCObject@23@J@Z
+         34   21 00004AE0 ?Generate@CRandomTable@base@cfgames@@QAEXXZ
+         35   22 00002E60 ?GenerateClassCode@CClassManager@base@cfgames@@QAEABJPAVCObject@23@@Z
+         36   23 00001080 ?GetActivationState@_CActivatable@base@cfgames@@UBEABW4ActivationType@123@XZ
+         37   24 00003080 ?GetClassCode@CClassManagerException@base@cfgames@@UBEABJXZ
+         38   25 000035B0 ?GetClassCode@CObject@base@cfgames@@UBEABJXZ
+         39   26 00003090 ?GetClassNameA@CClassManagerException@base@cfgames@@UBEPBDXZ
+         40   27 000035C0 ?GetClassNameA@CObject@base@cfgames@@UBEPBDXZ
+         41   28 00002A80 ?GetInstance@CClassManager@base@cfgames@@SAAAV123@XZ
+         42   29 00004A70 ?GetInstance@CRandomTable@base@cfgames@@SAPAV123@XZ
+         43   2A 00004AC0 ?GetNextValue@CRandomTable@base@cfgames@@QAEMXZ
+         44   2B 00001070 ?Reset@_CActivatable@base@cfgames@@UAEXXZ
+         45   2C 00001090 ?SetActivation@_CActivatable@base@cfgames@@UAEXW4ActivationType@123@@Z
+         46   2D 00001060 ?Suspend@_CActivatable@base@cfgames@@UAEXXZ
+         47   2E 000032C0 ?ToString@CClassManagerException@base@cfgames@@UAE?AV?$basic_string@DV?$char_traits@D@_STL@@V?$allocator@D@2@@_STL@@XZ
+         48   2F 000049B0 ?ToString@CObject@base@cfgames@@UAE?AV?$basic_string@DV?$char_traits@D@_STL@@V?$allocator@D@2@@_STL@@XZ
+         49   30 000385A0 ?currentClassCode@CClassManager@base@cfgames@@0JA
+         50   31 000385A4 ?instance@CClassManager@base@cfgames@@0PAV123@A
+         51   32 000385B4 ?instance@CRandomTable@base@cfgames@@0PAV123@A
+
+  Summary
+
+        5000 .data
+        8000 .rdata
+        3000 .reloc
+       2D000 .text

@@ -1,0 +1,33 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file GameGUIMP.dll
+
+File Type: DLL
+
+  Section contains the following exports for GameGUIMP.dll
+
+    00000000 characteristics
+    42DC229B time date stamp Tue Jul 19 00:43:55 2005
+        0.00 version
+           1 ordinal base
+           6 number of functions
+           6 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000022B0 ?OnAudioQuality@CGameGUI@@SAXXZ
+          2    1 000021C0 ?OnInvokeConsole@CGameGUI@@SAXXZ
+          3    2 00002180 ?OnPlayerSettings@CGameGUI@@SAXXZ
+          4    3 00002190 ?OnSelectPlayerAndControls@CGameGUI@@SAXXZ
+          5    4 000023A0 ?OnVideoQuality@CGameGUI@@SAXXZ
+          6    5 000024C0 GAMEGUI_Create
+
+  Summary
+
+        2000 .data
+        3000 .rdata
+        2000 .reloc
+        2000 .rsrc
+        5000 .text
