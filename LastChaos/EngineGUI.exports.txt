@@ -1,0 +1,39 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file EngineGUI.dll
+
+File Type: DLL
+
+  Section contains the following exports for EngineGUI.dll
+
+    00000000 characteristics
+    586E2B4F time date stamp Thu Jan 05 14:17:35 2017
+        0.00 version
+           1 ordinal base
+          10 number of functions
+          10 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00007EF0 ?BrowseForFolder@CEngineGUI@@QAEHAAVCTFileName@@VCTString@@PAD@Z
+          2    1 00007410 ?BrowseTexture@CEngineGUI@@QAE?AVCTFileName@@V2@PAD1H@Z
+          3    2 00006160 ?CreateTexture@CEngineGUI@@QAE?AVCTFileName@@V2@PAV?$CDynamicArray@VCTFileName@@@@@Z
+          4    3 00007E10 ?FileRequester@@YA?AVCTFileName@@PAD000@Z
+          5    4 00006CE0 ?FileRequester@CEngineGUI@@QAE?AVCTFileName@@PAD00VCTString@@1PAV?$CDynamicArray@VCTFileName@@@@H@Z
+          6    5 00005E30 ?GetFullScreenModeFromRegistry@CEngineGUI@@QAEXVCTString@@AAVCDisplayMode@@AAW4GfxAPIType@@@Z
+          7    6 00008280 ?RecursiveFileBrowser@CEngineGUI@@QAEMVCTFileName@@PADP6AX0@ZVCTString@@H@Z
+          8    7 00006090 ?SelectMode@CEngineGUI@@QAEXAAVCDisplayMode@@AAW4GfxAPIType@@@Z
+          9    8 00005F90 ?SetFullScreenModeToRegistry@CEngineGUI@@QAEXVCTString@@VCDisplayMode@@W4GfxAPIType@@@Z
+         10    9 0001A380 ?_EngineGUI@@3VCEngineGUI@@A
+
+  Summary
+
+        1000 .data
+        1000 .gfids
+        A000 .rdata
+        3000 .reloc
+        2000 .rsrc
+        F000 .text
+        1000 .tls

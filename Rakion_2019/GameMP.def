@@ -1,0 +1,5 @@
+LIBRARY GAMEMP 
+EXPORTS 
+?GAME_Create@@YAPAVCGame@@XZ 
+?GAME_Destroy@@YAXXZ 
+?SE_SetGameMPData@@YAXPAX@Z 

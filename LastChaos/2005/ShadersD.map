@@ -1,0 +1,365 @@
+ ShadersD
+
+ Timestamp is 42d74564 (Fri Jul 15 14:11:00 2005)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0001158bH .text                   CODE
+ 0001:00011590 000013aaH .text$x                 CODE
+ 0002:00000000 0000018bH .rdata                  DATA
+ 0002:0000018c 000014f0H .xdata$x                DATA
+ 0002:00001680 00000cf2H .edata                  DATA
+ 0003:00000000 00000104H .CRT$XCA                DATA
+ 0003:00000104 00000104H .CRT$XCZ                DATA
+ 0003:00000208 00000104H .CRT$XIA                DATA
+ 0003:0000030c 00000104H .CRT$XIZ                DATA
+ 0003:00000410 000092eaH .data                   DATA
+ 0003:000096fc 00000620H .bss                    DATA
+ 0004:00000000 0000003cH .idata$2                DATA
+ 0004:0000003c 00000014H .idata$3                DATA
+ 0004:00000050 00000224H .idata$4                DATA
+ 0004:00000274 00000224H .idata$5                DATA
+ 0004:00000498 00000cf8H .idata$6                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:000004e0       _Shader_Add                100014e0 f   AddShader.obj
+ 0001:000007bb       _Shader_Desc_Add           100017bb f   AddShader.obj
+ 0001:00000964       _Shader_VPCode_Add         10001964 f   AddShader.obj
+ 0001:000009f0       _Shader_PPCode_Add         100019f0 f   AddShader.obj
+ 0001:00000c70       ??0ShaderDesc@@QAE@XZ      10001c70 f i AddShader.obj
+ 0001:00000d60       ??1ShaderDesc@@QAE@XZ      10001d60 f i AddShader.obj
+ 0001:00000e40       ??0?$CStaticArray@K@@QAE@XZ 10001e40 f i AddShader.obj
+ 0001:00000e80       ??1?$CStaticArray@K@@QAE@XZ 10001e80 f i AddShader.obj
+ 0001:00000ec0       ?New@?$CStaticArray@K@@QAEXJ@Z 10001ec0 f i AddShader.obj
+ 0001:00001010       ??A?$CStaticArray@K@@QAEAAKJ@Z 10002010 f i AddShader.obj
+ 0001:00001120       ??0?$CStaticArray@VCTString@@@@QAE@XZ 10002120 f i AddShader.obj
+ 0001:00001160       ??1?$CStaticArray@VCTString@@@@QAE@XZ 10002160 f i AddShader.obj
+ 0001:000011a0       ?New@?$CStaticArray@VCTString@@@@QAEXJ@Z 100021a0 f i AddShader.obj
+ 0001:00001370       ??A?$CStaticArray@VCTString@@@@QAEAAVCTString@@J@Z 10002370 f i AddShader.obj
+ 0001:00001480       ??0GFXColor@@QAE@XZ        10002480 f i AddShader.obj
+ 0001:000014a0       ??0GFXColor@@QAE@K@Z       100024a0 f i AddShader.obj
+ 0001:000014e0       ?MultiplyRGBA@GFXColor@@QAEXABU1@0@Z 100024e0 f i AddShader.obj
+ 0001:00001580       ?Delete@?$CStaticArray@K@@QAEXXZ 10002580 f i AddShader.obj
+ 0001:000016c0       ?Delete@?$CStaticArray@VCTString@@@@QAEXXZ 100026c0 f i AddShader.obj
+ 0001:00001820       ??_H@YGXPAXIHP6EX0@Z@Z     10002820 f i AddShader.obj
+ 0001:00001870       ??_ECTString@@QAEPAXI@Z    10002870 f i AddShader.obj
+ 0001:00001930       ??0ShaderRegister@@QAE@UGFXColor@@@Z 10002930 f i AddShader.obj
+ 0001:000019c0       ?NormByteToFloat@@YAMK@Z   100029c0 f i AddShader.obj
+ 0001:00001a00       _Shader_Base               10002a00 f   BaseShader.obj
+ 0001:00001d65       _Shader_Desc_Base          10002d65 f   BaseShader.obj
+ 0001:00001f0e       _Shader_VPCode_Base        10002f0e f   BaseShader.obj
+ 0001:00001f9d       _Shader_PPCode_Base        10002f9d f   BaseShader.obj
+ 0001:00002210       _Shader_BasePPL_Abs        10003210 f   BaseShaderPPL_Abs.obj
+ 0001:0000267c       _Shader_Desc_BasePPL_Abs   1000367c f   BaseShaderPPL_Abs.obj
+ 0001:00002869       _Shader_VPCode_BasePPL_Abs 10003869 f   BaseShaderPPL_Abs.obj
+ 0001:000028f8       _Shader_PPCode_BasePPL_Abs 100038f8 f   BaseShaderPPL_Abs.obj
+ 0001:00002bc0       ??R?$Vector@M$02@@QBEABMH@Z 10003bc0 f i BaseShaderPPL_Abs.obj
+ 0001:00002c80       ??0ShaderRegister@@QAE@MMM@Z 10003c80 f i BaseShaderPPL_Abs.obj
+ 0001:00002cd0       _Shader_Base_Transparent   10003cd0 f   BaseTransparent.obj
+ 0001:000030b8       _Shader_Desc_Base_Transparent 100040b8 f   BaseTransparent.obj
+ 0001:00003261       _Shader_VPCode_Base_Transparent 10004261 f   BaseTransparent.obj
+ 0001:000032f0       _Shader_PPCode_Base_Transparent 100042f0 f   BaseTransparent.obj
+ 0001:00003660       _Shader_Color              10004660 f   ColorShader.obj
+ 0001:00003887       _Shader_Desc_Color         10004887 f   ColorShader.obj
+ 0001:000039ec       _Shader_VPCode_Color       100049ec f   ColorShader.obj
+ 0001:00003a78       _Shader_PPCode_Color       10004a78 f   ColorShader.obj
+ 0001:00003cb0       ?DoSpecularLayer@@YAXJJH@Z 10004cb0 f   Common.obj
+ 0001:00004123       ?DoReflectionLayer@@YAXJJH@Z 10005123 f   Common.obj
+ 0001:000047c0       ??R?$Matrix@M$02$02@@QAEAAMHH@Z 100057c0 f i Common.obj
+ 0001:000048a0       ??0?$Vector@M$02@@QAE@MMM@Z 100058a0 f i Common.obj
+ 0001:00004980       ??R?$Vector@M$02@@QAEAAMH@Z 10005980 f i Common.obj
+ 0001:00004a40       ?Normalize@?$Vector@M$02@@QAEAAV1@XZ 10005a40 f i Common.obj
+ 0001:00004a80       ?Length@?$Vector@M$02@@QBEMXZ 10005a80 f i Common.obj
+ 0001:00004b40       ??_0?$Vector@M$02@@QAEAAV0@M@Z 10005b40 f i Common.obj
+ 0001:00004bf0       ??G?$Vector@M$02@@QBE?AV0@XZ 10005bf0 f i Common.obj
+ 0001:00004c70       ?Flip@?$Vector@M$02@@QAEAAV1@XZ 10005c70 f i Common.obj
+ 0001:00004d20       ?ClampUp@@YAJJJ@Z          10005d20 f i Common.obj
+ 0001:00004d60       ?ByteSwap@@YAKK@Z          10005d60 f i Common.obj
+ 0001:00004d90       ?MultiplyRGBCopyA1@GFXColor@@QAEXABU1@0@Z 10005d90 f i Common.obj
+ 0001:00004e20       ?AttenuateRGB@GFXColor@@QAEXK@Z 10005e20 f i Common.obj
+ 0001:00004e90       ?AttenuateA@GFXColor@@QAEXK@Z 10005e90 f i Common.obj
+ 0001:00004ed0       _Shader_Default            10005ed0 f   DefaultShader.obj
+ 0001:00005b49       _Shader_Desc_Default       10006b49 f   DefaultShader.obj
+ 0001:00005df2       _Shader_VPCode_Default     10006df2 f   DefaultShader.obj
+ 0001:00005e3c       _Shader_PPCode_Default     10006e3c f   DefaultShader.obj
+ 0001:00006330       ?Clamp@@YAJJJJ@Z           10007330 f i DefaultShader.obj
+ 0001:00006390       ?IsNormalFloat@@YA_NM@Z    10007390 f i DefaultShader.obj
+ 0001:00006470       ??0ShaderRegister@@QAE@MMMM@Z 10007470 f i DefaultShader.obj
+ 0001:000064c0       _Shader_Detail_Specular    100074c0 f   Detail_SpecularShader.obj
+ 0001:00006d5e       _Shader_Desc_Detail_Specular 10007d5e f   Detail_SpecularShader.obj
+ 0001:00007007       _Shader_VPCode_Detail_Specular 10008007 f   Detail_SpecularShader.obj
+ 0001:000070c0       _Shader_PPCode_Detail_Specular 100080c0 f   Detail_SpecularShader.obj
+ 0001:000075a0       ??0ShaderRegister@@QAE@ABV?$Vector@M$02@@@Z 100085a0 f i Detail_SpecularShader.obj
+ 0001:00007620       _Shader_Detail             10008620 f   DetailShader.obj
+ 0001:00007b7b       _Shader_Desc_Detail        10008b7b f   DetailShader.obj
+ 0001:00007df0       _Shader_VPCode_Detail      10008df0 f   DetailShader.obj
+ 0001:00007e7f       _Shader_PPCode_Detail      10008e7f f   DetailShader.obj
+ 0001:00008280       _Shader_LavaDisplace       10009280 f   DisplaceShader.obj
+ 0001:0000860e       _Shader_Desc_LavaDisplace  1000960e f   DisplaceShader.obj
+ 0001:00008851       _Shader_VPCode_LavaDisplace 10009851 f   DisplaceShader.obj
+ 0001:000088cc       _Shader_PPCode_LavaDisplace 100098cc f   DisplaceShader.obj
+ 0001:00008b00       _Shader_Glass              10009b00 f   GlassShader.obj
+ 0001:00009418       _Shader_Desc_Glass         1000a418 f   GlassShader.obj
+ 0001:0000966d       _Shader_VPCode_Glass       1000a66d f   GlassShader.obj
+ 0001:00009745       _Shader_PPCode_Glass       1000a745 f   GlassShader.obj
+ 0001:00009bc0       _Shader_Invisible          1000abc0 f   InvisibleShader.obj
+ 0001:00009bc5       _Shader_Desc_Invisible     1000abc5 f   InvisibleShader.obj
+ 0001:00009cae       _Shader_VPCode_Invisible   1000acae f   InvisibleShader.obj
+ 0001:00009cb3       _Shader_PPCode_Invisible   1000acb3 f   InvisibleShader.obj
+ 0001:00009d00       ?RenderMultilayer@@YAXXZ   1000ad00 f   MultiLayerShader.obj
+ 0001:00009fd8       _Shader_MultiLayer         1000afd8 f   MultiLayerShader.obj
+ 0001:0000a455       _Shader_Desc_MultiLayer    1000b455 f   MultiLayerShader.obj
+ 0001:0000a6a8       _Shader_VPCode_MultiLayer  1000b6a8 f   MultiLayerShader.obj
+ 0001:0000a737       _Shader_PPCode_MultiLayer  1000b737 f   MultiLayerShader.obj
+ 0001:0000aad0       _Shader_NormalMap          1000bad0 f   NormalMapShader.obj
+ 0001:0000b742       _Shader_Desc_NormalMap     1000c742 f   NormalMapShader.obj
+ 0001:0000b9eb       _Shader_VPCode_NormalMap   1000c9eb f   NormalMapShader.obj
+ 0001:0000ba35       _Shader_PPCode_NormalMap   1000ca35 f   NormalMapShader.obj
+ 0001:0000bf20       _Shader_NoShadow           1000cf20 f   NoShadowShader.obj
+ 0001:0000c101       _Shader_Desc_NoShadow      1000d101 f   NoShadowShader.obj
+ 0001:0000c222       _Shader_VPCode_NoShadow    1000d222 f   NoShadowShader.obj
+ 0001:0000c2b4       _Shader_PPCode_NoShadow    1000d2b4 f   NoShadowShader.obj
+ 0001:0000c460       _Shader_Reflection         1000d460 f   Reflection.obj
+ 0001:0000c90e       _Shader_Desc_Reflection    1000d90e f   Reflection.obj
+ 0001:0000cafb       _Shader_VPCode_Reflection  1000dafb f   Reflection.obj
+ 0001:0000cb8a       _Shader_PPCode_Reflection  1000db8a f   Reflection.obj
+ 0001:0000ce60       ??R?$Matrix@M$02$02@@QBEABMHH@Z 1000de60 f i Reflection.obj
+ 0001:0000cf40       _Shader_ReflectionAndSpecular 1000df40 f   ReftectionAndSpecular.obj
+ 0001:0000d5f9       _Shader_Desc_ReflectionAndSpecular 1000e5f9 f   ReftectionAndSpecular.obj
+ 0001:0000d82a       _Shader_VPCode_ReflectionAndSpecular 1000e82a f   ReftectionAndSpecular.obj
+ 0001:0000d8b9       _Shader_PPCode_ReflectionAndSpecular 1000e8b9 f   ReftectionAndSpecular.obj
+ 0001:0000dc20       _Shader_Shadow             1000ec20 f   ShadowShader.obj
+ 0001:0000e1d8       _Shader_Desc_Shadow        1000f1d8 f   ShadowShader.obj
+ 0001:0000e33d       _Shader_VPCode_Shadow      1000f33d f   ShadowShader.obj
+ 0001:0000e3d2       _Shader_PPCode_Shadow      1000f3d2 f   ShadowShader.obj
+ 0001:0000e680       _Shader_Specular           1000f680 f   Specular.obj
+ 0001:0000ebb7       _Shader_Desc_Specular      1000fbb7 f   Specular.obj
+ 0001:0000eda4       _Shader_VPCode_Specular    1000fda4 f   Specular.obj
+ 0001:0000ee33       _Shader_PPCode_Specular    1000fe33 f   Specular.obj
+ 0001:0000f130       ?ClampRect@@YA?AVCTRect@@ABV1@0@Z 10010130 f i StdH.obj
+ 0001:0000f220       ??0CTRect@@QAE@XZ          10010220 f i StdH.obj
+ 0001:0000f240       ??0CTRect@@QAE@ABV0@@Z     10010240 f i StdH.obj
+ 0001:0000f2a0       ?RectTouchesRect@@YAHABVCTRect@@0@Z 100102a0 f i StdH.obj
+ 0001:0000f300       _Shader_Translucent        10010300 f   Translucent.obj
+ 0001:0000f5ec       _Shader_Desc_Translucent   100105ec f   Translucent.obj
+ 0001:0000f8f0       _Shader_WaterHolder        100108f0 f   WaterShader.obj
+ 0001:0000fb99       _Shader_Desc_WaterHolder   10010b99 f   WaterShader.obj
+ 0001:0000fcfe       _Shader_VPCode_WaterHolder 10010cfe f   WaterShader.obj
+ 0001:0000fd29       _Shader_PPCode_WaterHolder 10010d29 f   WaterShader.obj
+ 0001:0000fe6e       ?shaDisableOverBrightning@@YAXXZ 10010e6e f   EngineD:EngineD.dll
+ 0001:0000fe74       ?shaRender@@YAXXZ          10010e74 f   EngineD:EngineD.dll
+ 0001:0000fe7a       ?shaCullFace@@YAXW4GfxFace@@@Z 10010e7a f   EngineD:EngineD.dll
+ 0001:0000fe80       ?shaAttenuateColorForFogAndHaze@@YAXXZ 10010e80 f   EngineD:EngineD.dll
+ 0001:0000fe86       ?shaCalculateLight@@YAXXZ  10010e86 f   EngineD:EngineD.dll
+ 0001:0000fe8c       ?shaEnableOverBrightning@@YAXXZ 10010e8c f   EngineD:EngineD.dll
+ 0001:0000fe92       ?shaSetDefaultConstantRegisters@@YAXXZ 10010e92 f   EngineD:EngineD.dll
+ 0001:0000fe98       ?shaPrepareFogAndHaze@@YAXH@Z 10010e98 f   EngineD:EngineD.dll
+ 0001:0000fe9e       ?shaSetPixelProgramConst@@YAXJPBUShaderRegister@@J@Z 10010e9e f   EngineD:EngineD.dll
+ 0001:0000fea4       ?shaSetPixelProgram@@YAXJ@Z 10010ea4 f   EngineD:EngineD.dll
+ 0001:0000feaa       ?shaSetVertexProgram@@YAXJW4NormalMapMeshType@@@Z 10010eaa f   EngineD:EngineD.dll
+ 0001:0000feb0       ?shaSetFogTextureUnit@@YAXJH@Z 10010eb0 f   EngineD:EngineD.dll
+ 0001:0000feb6       ?shaBlendFunc@@YAXW4GfxBlend@@0@Z 10010eb6 f   EngineD:EngineD.dll
+ 0001:0000febc       ?shaGetModelColor@@YAKXZ   10010ebc f   EngineD:EngineD.dll
+ 0001:0000fec2       ?shaGetCurrentColor@@YAKXZ 10010ec2 f   EngineD:EngineD.dll
+ 0001:0000fec8       ?shaEnableBlend@@YAXXZ     10010ec8 f   EngineD:EngineD.dll
+ 0001:0000fece       ?shaUseHWShaders@@YAHXZ    10010ece f   EngineD:EngineD.dll
+ 0001:0000fed4       ?shaGetFlags@@YAAAKXZ      10010ed4 f   EngineD:EngineD.dll
+ 0001:0000feda       ?shaSetColor@@YAXJ@Z       10010eda f   EngineD:EngineD.dll
+ 0001:0000fee0       ?shaSetUVMap@@YAXJJ@Z      10010ee0 f   EngineD:EngineD.dll
+ 0001:0000fee6       ?shaSetTexture@@YAXJJ@Z    10010ee6 f   EngineD:EngineD.dll
+ 0001:0000feec       ?shaDisableAlphaTest@@YAXXZ 10010eec f   EngineD:EngineD.dll
+ 0001:0000fef2       ?shaDepthFunc@@YAXW4GfxComp@@@Z 10010ef2 f   EngineD:EngineD.dll
+ 0001:0000fef8       ?shaDisableDepthWrite@@YAXXZ 10010ef8 f   EngineD:EngineD.dll
+ 0001:0000fefe       ?shaEnableDepthTest@@YAXXZ 10010efe f   EngineD:EngineD.dll
+ 0001:0000ff04       ?shaSetTextureWrapping@@YAXW4GfxWrap@@0J@Z 10010f04 f   EngineD:EngineD.dll
+ 0001:0000ff0a       ??4CTString@@QAEAAV0@PBD@Z 10010f0a f   EngineD:EngineD.dll
+ 0001:0000ff10       ??0CTString@@QAE@XZ        10010f10 f   EngineD:EngineD.dll
+ 0001:0000ff16       ??1CTString@@QAE@XZ        10010f16 f   EngineD:EngineD.dll
+ 0001:0000ff1c       ?shaDoFogAndHazePass@@YAXXZ 10010f1c f   EngineD:EngineD.dll
+ 0001:0000ff22       ?shaAttenuateAlphaForFogAndHaze@@YAXXZ 10010f22 f   EngineD:EngineD.dll
+ 0001:0000ff28       ?shaEnableDepthWrite@@YAXXZ 10010f28 f   EngineD:EngineD.dll
+ 0001:0000ff2e       ?shaDisableBlend@@YAXXZ    10010f2e f   EngineD:EngineD.dll
+ 0001:0000ff34       ?MulColors@@YAKKK@Z        10010f34 f   EngineD:EngineD.dll
+ 0001:0000ff3a       ?shaGetAmbientColor@@YAKXZ 10010f3a f   EngineD:EngineD.dll
+ 0001:0000ff40       ?shaGetLightColor@@YAKXZ   10010f40 f   EngineD:EngineD.dll
+ 0001:0000ff46       ?shaGetLightDirection@@YA?AV?$Vector@M$02@@XZ 10010f46 f   EngineD:EngineD.dll
+ 0001:0000ff4c       ?shaEnableAlphaTest@@YAXXZ 10010f4c f   EngineD:EngineD.dll
+ 0001:0000ff52       ?shaGetColor@@YAKJ@Z       10010f52 f   EngineD:EngineD.dll
+ 0001:0000ff58       ?shaSetTexCoordArray@@YAXPAUGFXTexCoord@@J@Z 10010f58 f   EngineD:EngineD.dll
+ 0001:0000ff5e       ?shaSetColorArray@@YAXPAUGFXColor@@@Z 10010f5e f   EngineD:EngineD.dll
+ 0001:0000ff64       ?shaGetColorArray@@YAPAUGFXColor@@XZ 10010f64 f   EngineD:EngineD.dll
+ 0001:0000ff6a       ?shaGetNewColorArray@@YAPAUGFXColor@@XZ 10010f6a f   EngineD:EngineD.dll
+ 0001:0000ff70       ?shaCalculateLightForSpecular@@YAXXZ 10010f70 f   EngineD:EngineD.dll
+ 0001:0000ff76       ?shaGetNewTexCoordArray@@YAPAUGFXTexCoord@@XZ 10010f76 f   EngineD:EngineD.dll
+ 0001:0000ff7c       ?shaGetNormalArray@@YAPAUGFXNormal@@XZ 10010f7c f   EngineD:EngineD.dll
+ 0001:0000ff82       ?shaGetVertexArray@@YAPAUGFXVertex@@XZ 10010f82 f   EngineD:EngineD.dll
+ 0001:0000ff88       ?shaGetObjToViewMatrix@@YAPAY0M@MXZ 10010f88 f   EngineD:EngineD.dll
+ 0001:0000ff8e       ?shaGetObjToAbsMatrix@@YAPAY0M@MXZ 10010f8e f   EngineD:EngineD.dll
+ 0001:0000ff94       ?shaGetVertexCount@@YAJXZ  10010f94 f   EngineD:EngineD.dll
+ 0001:0000ff9a       ??CCAnyProjection3D@@QAEPAVCProjection3D@@XZ 10010f9a f   EngineD:EngineD.dll
+ 0001:0000ffa0       ?shaGetProjection@@YAPAVCAnyProjection3D@@XZ 10010fa0 f   EngineD:EngineD.dll
+ 0001:0000ffa6       ?shaSetLightColor@@YAXKK@Z 10010fa6 f   EngineD:EngineD.dll
+ 0001:0000ffac       ?shaGetFloat@@YAMJ@Z       10010fac f   EngineD:EngineD.dll
+ 0001:0000ffb2       ?shaSetVertexProgramConst_BoneMatrix@@YAXXZ 10010fb2 f   EngineD:EngineD.dll
+ 0001:0000ffb8       ?shaSetVertexProgramConst_Multiply@@YAXXZ 10010fb8 f   EngineD:EngineD.dll
+ 0001:0000ffbe       ?shaSetVertexProgramConst_LightDir@@YAXXZ 10010fbe f   EngineD:EngineD.dll
+ 0001:0000ffc4       ?shaSetVertexProgramConst@@YAXJPBUShaderRegister@@J@Z 10010fc4 f   EngineD:EngineD.dll
+ 0001:0000ffca       ?shaSetVertexProgramConst_TransformMatrix@@YAXXZ 10010fca f   EngineD:EngineD.dll
+ 0001:0000ffd0       ?shaPrepareForBillboard@@YAXHH@Z 10010fd0 f   EngineD:EngineD.dll
+ 0001:0000ffd6       ?shaGetUVMap@@YAPAUGFXTexCoord@@J@Z 10010fd6 f   EngineD:EngineD.dll
+ 0001:0000ffdc       ?shaSetSurfaceFlags@@YAXK@Z 10010fdc f   EngineD:EngineD.dll
+ 0001:0000ffe2       ?shaSetVertexProgramConst@@YAXJPAY0M@$$CBMJ@Z 10010fe2 f   EngineD:EngineD.dll
+ 0001:0000ffe8       ?shaSetTextureUnit@@YAXJ@Z 10010fe8 f   EngineD:EngineD.dll
+ 0001:0000ffee       ?shaGetRenFlags@@YAKXZ     10010fee f   EngineD:EngineD.dll
+ 0001:0000fff4       ?shaSetModelColor@@YAXAAK@Z 10010ff4 f   EngineD:EngineD.dll
+ 0001:0000fffa       ?shaSetVertexProgramConst_WaterInformation@@YAXXZ 10010ffa f   EngineD:EngineD.dll
+ 0001:00010000       ?shaSetEMBM@@YAXXZ         10011000 f   EngineD:EngineD.dll
+ 0001:00010006       ?shaSetVertexProgramConst_ProjectionMatrix@@YAXXZ 10011006 f   EngineD:EngineD.dll
+ 0001:0001000c       ?shaSetPixelProgramConst_WaterColor@@YAXXZ 1001100c f   EngineD:EngineD.dll
+ 0001:00010020       ??3@YAXPAX@Z               10011020 f   msvcprtd:delop_s.obj
+ 0001:00010032       __chkesp                   10011032 f   MSVCRTD:MSVCRTD.dll
+ 0001:00010040       __onexit                   10011040 f   MSVCRTD:atonexit.obj
+ 0001:00010080       _atexit                    10011080 f   MSVCRTD:atonexit.obj
+ 0001:00010098       ___CxxFrameHandler         10011098 f   MSVCRTD:MSVCRTD.dll
+ 0001:000100a0       __assert                   100110a0 f   MSVCRTD:MSVCRTD.dll
+ 0001:000100a6       ??2@YAPAXI@Z               100110a6 f   MSVCRTD:MSVCRTD.dll
+ 0001:000100b0       ??_L@YGXPAXIHP6EX0@Z1@Z    100110b0 f   MSVCRTD:ehvecctr.obj
+ 0001:00010150       ??_M@YGXPAXIHP6EX0@Z@Z     10011150 f   MSVCRTD:ehvecdtr.obj
+ 0001:00010200       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10011200 f   MSVCRTD:ehvecdtr.obj
+ 0001:000102ac       _sqrt                      100112ac f   MSVCRTD:MSVCRTD.dll
+ 0001:000102b2       __fpclass                  100112b2 f   MSVCRTD:MSVCRTD.dll
+ 0001:000102c0       __CRT_INIT@12              100112c0 f   MSVCRTD:crtdll.obj
+ 0001:000103d0       __DllMainCRTStartup@12     100113d0 f   MSVCRTD:crtdll.obj
+ 0001:000104c4       _free                      100114c4 f   MSVCRTD:MSVCRTD.dll
+ 0001:000104ca       ___dllonexit               100114ca f   MSVCRTD:MSVCRTD.dll
+ 0001:000104d0       __except_handler3          100114d0 f   MSVCRTD:MSVCRTD.dll
+ 0001:000104d6       ?terminate@@YAXXZ          100114d6 f   MSVCRTD:MSVCRTD.dll
+ 0001:000104dc       __free_dbg                 100114dc f   MSVCRTD:MSVCRTD.dll
+ 0001:000104e2       __initterm                 100114e2 f   MSVCRTD:MSVCRTD.dll
+ 0001:000104e8       __malloc_dbg               100114e8 f   MSVCRTD:MSVCRTD.dll
+ 0001:000104f0       _DllMain@12                100114f0 f   MSVCRTD:dllmain.obj
+ 0001:00010516       _DisableThreadLibraryCalls@4 10011516 f   kernel32:KERNEL32.dll
+ 0002:0000001c       __real@3b808081            1001401c     AddShader.obj
+ 0002:00000020       __real@3f000000            10014020     Common.obj
+ 0002:00000028       __real@3fe0000000000000    10014028     Common.obj
+ 0002:00000034       __real@40000000            10014034     Common.obj
+ 0002:00000038       __real@3f800000            10014038     Common.obj
+ 0002:0000006c       ??_C@_08JKC@crtdll?4c?$AA@ 1001406c     MSVCRTD:crtdll.obj
+ 0003:00000000       ___xc_a                    10017000     MSVCRTD:cinitexe.obj
+ 0003:00000104       ___xc_z                    10017104     MSVCRTD:cinitexe.obj
+ 0003:00000208       ___xi_a                    10017208     MSVCRTD:cinitexe.obj
+ 0003:0000030c       ___xi_z                    1001730c     MSVCRTD:cinitexe.obj
+ 0003:000008d4       ??_C@_0BO@NEAC@sa_Count?$DN?$DN0?5?$CG?$CG?5sa_Array?$DN?$DNNULL?$AA@ 100178d4     AddShader.obj
+ 0003:000008f8       ??_C@_0BI@KEP@this?$CB?$DNNULL?5?$CG?$CG?5iCount?$DO?$DN0?$AA@ 100178f8     AddShader.obj
+ 0003:00000914       ??_C@_0CE@OIKK@?4?4?2Engine?1Templates?1StaticArray?4@ 10017914     AddShader.obj
+ 0003:00000940       ??_C@_0BD@BDEJ@i?$DO?$DN0?5?$CG?$CG?5i?$DMsa_Count?$AA@ 10017940     AddShader.obj
+ 0003:00000958       ??_C@_0L@OPGH@this?$CB?$DNNULL?$AA@ 10017958     AddShader.obj
+ 0003:00000968       ??_C@_0BO@LCKO@sa_Count?$CB?$DN0?5?$CG?$CG?5sa_Array?$CB?$DNNULL?$AA@ 10017968     AddShader.obj
+ 0003:0000153c       ??_C@_0BH@EHFB@i?$DO?$DN1?5?$CG?$CG?5i?$DM?$DNiDimensions?$AA@ 1001853c     BaseShaderPPL_Abs.obj
+ 0003:00001558       ??_C@_0BI@BMCB@?4?4?2Engine?1Math?1Vector?4h?$AA@ 10018558     BaseShaderPPL_Abs.obj
+ 0003:00001fd4       ??_C@_0DK@GMMD@iRow?$DO?$DN1?5?$CG?$CG?5iRow?$DM?$DNiRows?5?$CG?$CG?5iColum@ 10018fd4     Common.obj
+ 0003:0000201c       ??_C@_0BI@CEFA@?4?4?2Engine?1Math?1Matrix?4h?$AA@ 1001901c     Common.obj
+ 0003:00002038       ??_C@_0P@DOLK@iDimensions?$DN?$DN3?$AA@ 10019038     Common.obj
+ 0003:00009cf0       __adjust_fdiv              10020cf0     <common>
+ 0003:00009cfc       __pRawDllMain              10020cfc     <common>
+ 0003:00009d08       ___onexitend               10020d08     <common>
+ 0003:00009d18       ___onexitbegin             10020d18     <common>
+ 0004:00000000       __IMPORT_DESCRIPTOR_EngineD 10021000     EngineD:EngineD.dll
+ 0004:00000014       __IMPORT_DESCRIPTOR_MSVCRTD 10021014     MSVCRTD:MSVCRTD.dll
+ 0004:00000028       __IMPORT_DESCRIPTOR_KERNEL32 10021028     kernel32:KERNEL32.dll
+ 0004:0000003c       __NULL_IMPORT_DESCRIPTOR   1002103c     EngineD:EngineD.dll
+ 0004:00000274       __imp_?shaGetNormalArray@@YAPAUGFXNormal@@XZ 10021274     EngineD:EngineD.dll
+ 0004:00000278       __imp_?shaRender@@YAXXZ    10021278     EngineD:EngineD.dll
+ 0004:0000027c       __imp_?shaCullFace@@YAXW4GfxFace@@@Z 1002127c     EngineD:EngineD.dll
+ 0004:00000280       __imp_?shaAttenuateColorForFogAndHaze@@YAXXZ 10021280     EngineD:EngineD.dll
+ 0004:00000284       __imp_?shaCalculateLight@@YAXXZ 10021284     EngineD:EngineD.dll
+ 0004:00000288       __imp_?shaEnableOverBrightning@@YAXXZ 10021288     EngineD:EngineD.dll
+ 0004:0000028c       __imp_?shaSetDefaultConstantRegisters@@YAXXZ 1002128c     EngineD:EngineD.dll
+ 0004:00000290       __imp_?shaPrepareFogAndHaze@@YAXH@Z 10021290     EngineD:EngineD.dll
+ 0004:00000294       __imp_?shaSetPixelProgramConst@@YAXJPBUShaderRegister@@J@Z 10021294     EngineD:EngineD.dll
+ 0004:00000298       __imp_?shaSetPixelProgram@@YAXJ@Z 10021298     EngineD:EngineD.dll
+ 0004:0000029c       __imp_?shaSetVertexProgram@@YAXJW4NormalMapMeshType@@@Z 1002129c     EngineD:EngineD.dll
+ 0004:000002a0       __imp_?shaSetFogTextureUnit@@YAXJH@Z 100212a0     EngineD:EngineD.dll
+ 0004:000002a4       __imp_?shaBlendFunc@@YAXW4GfxBlend@@0@Z 100212a4     EngineD:EngineD.dll
+ 0004:000002a8       __imp_?shaGetModelColor@@YAKXZ 100212a8     EngineD:EngineD.dll
+ 0004:000002ac       __imp_?shaGetCurrentColor@@YAKXZ 100212ac     EngineD:EngineD.dll
+ 0004:000002b0       __imp_?shaEnableBlend@@YAXXZ 100212b0     EngineD:EngineD.dll
+ 0004:000002b4       __imp_?shaUseHWShaders@@YAHXZ 100212b4     EngineD:EngineD.dll
+ 0004:000002b8       __imp_?shaGetFlags@@YAAAKXZ 100212b8     EngineD:EngineD.dll
+ 0004:000002bc       __imp_?shaSetColor@@YAXJ@Z 100212bc     EngineD:EngineD.dll
+ 0004:000002c0       __imp_?shaSetUVMap@@YAXJJ@Z 100212c0     EngineD:EngineD.dll
+ 0004:000002c4       __imp_?shaSetTexture@@YAXJJ@Z 100212c4     EngineD:EngineD.dll
+ 0004:000002c8       __imp_?shaDisableAlphaTest@@YAXXZ 100212c8     EngineD:EngineD.dll
+ 0004:000002cc       __imp_?shaDepthFunc@@YAXW4GfxComp@@@Z 100212cc     EngineD:EngineD.dll
+ 0004:000002d0       __imp_?shaDisableDepthWrite@@YAXXZ 100212d0     EngineD:EngineD.dll
+ 0004:000002d4       __imp_?shaEnableDepthTest@@YAXXZ 100212d4     EngineD:EngineD.dll
+ 0004:000002d8       __imp_?shaSetTextureWrapping@@YAXW4GfxWrap@@0J@Z 100212d8     EngineD:EngineD.dll
+ 0004:000002dc       __imp_??4CTString@@QAEAAV0@PBD@Z 100212dc     EngineD:EngineD.dll
+ 0004:000002e0       __imp_??0CTString@@QAE@XZ  100212e0     EngineD:EngineD.dll
+ 0004:000002e4       __imp_??1CTString@@QAE@XZ  100212e4     EngineD:EngineD.dll
+ 0004:000002e8       __imp_?shaDoFogAndHazePass@@YAXXZ 100212e8     EngineD:EngineD.dll
+ 0004:000002ec       __imp_?shaAttenuateAlphaForFogAndHaze@@YAXXZ 100212ec     EngineD:EngineD.dll
+ 0004:000002f0       __imp_?shaEnableDepthWrite@@YAXXZ 100212f0     EngineD:EngineD.dll
+ 0004:000002f4       __imp_?shaDisableBlend@@YAXXZ 100212f4     EngineD:EngineD.dll
+ 0004:000002f8       __imp_?MulColors@@YAKKK@Z  100212f8     EngineD:EngineD.dll
+ 0004:000002fc       __imp_?shaGetAmbientColor@@YAKXZ 100212fc     EngineD:EngineD.dll
+ 0004:00000300       __imp_?shaGetLightColor@@YAKXZ 10021300     EngineD:EngineD.dll
+ 0004:00000304       __imp_?shaGetLightDirection@@YA?AV?$Vector@M$02@@XZ 10021304     EngineD:EngineD.dll
+ 0004:00000308       __imp_?shaEnableAlphaTest@@YAXXZ 10021308     EngineD:EngineD.dll
+ 0004:0000030c       __imp_?shaGetColor@@YAKJ@Z 1002130c     EngineD:EngineD.dll
+ 0004:00000310       __imp_?shaSetTexCoordArray@@YAXPAUGFXTexCoord@@J@Z 10021310     EngineD:EngineD.dll
+ 0004:00000314       __imp_?shaSetColorArray@@YAXPAUGFXColor@@@Z 10021314     EngineD:EngineD.dll
+ 0004:00000318       __imp_?shaGetColorArray@@YAPAUGFXColor@@XZ 10021318     EngineD:EngineD.dll
+ 0004:0000031c       __imp_?shaGetNewColorArray@@YAPAUGFXColor@@XZ 1002131c     EngineD:EngineD.dll
+ 0004:00000320       __imp_?shaCalculateLightForSpecular@@YAXXZ 10021320     EngineD:EngineD.dll
+ 0004:00000324       __imp_?shaGetNewTexCoordArray@@YAPAUGFXTexCoord@@XZ 10021324     EngineD:EngineD.dll
+ 0004:00000328       __imp_?shaDisableOverBrightning@@YAXXZ 10021328     EngineD:EngineD.dll
+ 0004:0000032c       __imp_?shaGetVertexArray@@YAPAUGFXVertex@@XZ 1002132c     EngineD:EngineD.dll
+ 0004:00000330       __imp_?shaGetObjToViewMatrix@@YAPAY0M@MXZ 10021330     EngineD:EngineD.dll
+ 0004:00000334       __imp_?shaGetObjToAbsMatrix@@YAPAY0M@MXZ 10021334     EngineD:EngineD.dll
+ 0004:00000338       __imp_?shaGetVertexCount@@YAJXZ 10021338     EngineD:EngineD.dll
+ 0004:0000033c       __imp_??CCAnyProjection3D@@QAEPAVCProjection3D@@XZ 1002133c     EngineD:EngineD.dll
+ 0004:00000340       __imp_?shaGetProjection@@YAPAVCAnyProjection3D@@XZ 10021340     EngineD:EngineD.dll
+ 0004:00000344       __imp_?shaSetLightColor@@YAXKK@Z 10021344     EngineD:EngineD.dll
+ 0004:00000348       __imp_?shaGetFloat@@YAMJ@Z 10021348     EngineD:EngineD.dll
+ 0004:0000034c       __imp_?shaSetVertexProgramConst_BoneMatrix@@YAXXZ 1002134c     EngineD:EngineD.dll
+ 0004:00000350       __imp_?shaSetVertexProgramConst_Multiply@@YAXXZ 10021350     EngineD:EngineD.dll
+ 0004:00000354       __imp_?shaSetVertexProgramConst_LightDir@@YAXXZ 10021354     EngineD:EngineD.dll
+ 0004:00000358       __imp_?shaSetVertexProgramConst@@YAXJPBUShaderRegister@@J@Z 10021358     EngineD:EngineD.dll
+ 0004:0000035c       __imp_?shaSetVertexProgramConst_TransformMatrix@@YAXXZ 1002135c     EngineD:EngineD.dll
+ 0004:00000360       __imp_?shaPrepareForBillboard@@YAXHH@Z 10021360     EngineD:EngineD.dll
+ 0004:00000364       __imp_?shaGetUVMap@@YAPAUGFXTexCoord@@J@Z 10021364     EngineD:EngineD.dll
+ 0004:00000368       __imp_?shaSetSurfaceFlags@@YAXK@Z 10021368     EngineD:EngineD.dll
+ 0004:0000036c       __imp_?shaSetVertexProgramConst@@YAXJPAY0M@$$CBMJ@Z 1002136c     EngineD:EngineD.dll
+ 0004:00000370       __imp_?shaSetTextureUnit@@YAXJ@Z 10021370     EngineD:EngineD.dll
+ 0004:00000374       __imp_?shaGetRenFlags@@YAKXZ 10021374     EngineD:EngineD.dll
+ 0004:00000378       __imp_?_pGfx@@3PAVCGfxLibrary@@A 10021378     EngineD:EngineD.dll
+ 0004:0000037c       __imp_?shaSetModelColor@@YAXAAK@Z 1002137c     EngineD:EngineD.dll
+ 0004:00000380       __imp_?shaSetVertexProgramConst_WaterInformation@@YAXXZ 10021380     EngineD:EngineD.dll
+ 0004:00000384       __imp_?shaSetEMBM@@YAXXZ   10021384     EngineD:EngineD.dll
+ 0004:00000388       __imp_?shaSetVertexProgramConst_ProjectionMatrix@@YAXXZ 10021388     EngineD:EngineD.dll
+ 0004:0000038c       __imp_?shaSetPixelProgramConst_WaterColor@@YAXXZ 1002138c     EngineD:EngineD.dll
+ 0004:00000390       \177EngineD_NULL_THUNK_DATA 10021390     EngineD:EngineD.dll
+ 0004:000003f4       __imp__DisableThreadLibraryCalls@4 100213f4     kernel32:KERNEL32.dll
+ 0004:000003f8       \177KERNEL32_NULL_THUNK_DATA 100213f8     kernel32:KERNEL32.dll
+ 0004:00000424       __imp___chkesp             10021424     MSVCRTD:MSVCRTD.dll
+ 0004:00000428       __imp_??2@YAPAXI@Z         10021428     MSVCRTD:MSVCRTD.dll
+ 0004:0000042c       __imp__sqrt                1002142c     MSVCRTD:MSVCRTD.dll
+ 0004:00000430       __imp___fpclass            10021430     MSVCRTD:MSVCRTD.dll
+ 0004:00000434       __imp__free                10021434     MSVCRTD:MSVCRTD.dll
+ 0004:00000438       __imp____dllonexit         10021438     MSVCRTD:MSVCRTD.dll
+ 0004:0000043c       __imp____CxxFrameHandler   1002143c     MSVCRTD:MSVCRTD.dll
+ 0004:00000440       __imp___assert             10021440     MSVCRTD:MSVCRTD.dll
+ 0004:00000444       __imp_?terminate@@YAXXZ    10021444     MSVCRTD:MSVCRTD.dll
+ 0004:00000448       __imp___free_dbg           10021448     MSVCRTD:MSVCRTD.dll
+ 0004:0000044c       __imp___initterm           1002144c     MSVCRTD:MSVCRTD.dll
+ 0004:00000450       __imp___malloc_dbg         10021450     MSVCRTD:MSVCRTD.dll
+ 0004:00000454       __imp___adjust_fdiv        10021454     MSVCRTD:MSVCRTD.dll
+ 0004:00000458       __imp___onexit             10021458     MSVCRTD:MSVCRTD.dll
+ 0004:0000045c       __imp___except_handler3    1002145c     MSVCRTD:MSVCRTD.dll
+ 0004:00000460       \177MSVCRTD_NULL_THUNK_DATA 10021460     MSVCRTD:MSVCRTD.dll
+
+ entry point at        0001:000103d0
+
