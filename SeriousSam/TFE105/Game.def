@@ -1,0 +1,3 @@
+LIBRARY GAME 
+EXPORTS 
+GAME_Create 

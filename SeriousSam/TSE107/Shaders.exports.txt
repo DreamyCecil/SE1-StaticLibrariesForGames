@@ -1,0 +1,62 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Shaders.dll
+
+File Type: DLL
+
+  Section contains the following exports for Shaders.dll
+
+    00000000 characteristics
+    3CC41467 time date stamp Mon Apr 22 16:47:19 2002
+        0.00 version
+           1 ordinal base
+          36 number of functions
+          36 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001000 Shader_Add
+          2    1 000031D0 Shader_AddDS
+          3    2 000012D0 Shader_Base
+          4    3 000031D0 Shader_BaseDS
+          5    4 000014A0 Shader_Base_Transparent
+          6    5 000031D0 Shader_Base_TransparentDS
+          7    6 00001720 Shader_Color
+          8    7 000010B0 Shader_Desc_Add
+          9    8 00001220 Shader_Desc_AddDS
+         10    9 00001580 Shader_Desc_Base
+         11    A 000013F0 Shader_Desc_BaseDS
+         12    B 00001580 Shader_Desc_Base_Transparent
+         13    C 00001670 Shader_Desc_Base_TransparentDS
+         14    D 00001790 Shader_Desc_Color
+         15    E 00001F80 Shader_Desc_Detail
+         16    F 00002540 Shader_Desc_Invisible
+         17   10 000023A0 Shader_Desc_LavaDisplace
+         18   11 00002770 Shader_Desc_MultiLayer
+         19   12 000029F0 Shader_Desc_Reflection
+         20   13 00002CF0 Shader_Desc_ReflectionAndSpecular
+         21   14 00002E60 Shader_Desc_ReflectionAndSpecularDS
+         22   15 00002B10 Shader_Desc_ReflectionDS
+         23   16 000030A0 Shader_Desc_Specular
+         24   17 000031E0 Shader_Desc_SpecularDS
+         25   18 00003370 Shader_Desc_Translucent
+         26   19 00001E10 Shader_Detail
+         27   1A 000031D0 Shader_Invisible
+         28   1B 000020D0 Shader_LavaDisplace
+         29   1C 00002570 Shader_MultiLayer
+         30   1D 000028F0 Shader_Reflection
+         31   1E 00002BF0 Shader_ReflectionAndSpecular
+         32   1F 000031D0 Shader_ReflectionAndSpecularDS
+         33   20 000031D0 Shader_ReflectionDS
+         34   21 00002F80 Shader_Specular
+         35   22 000031D0 Shader_SpecularDS
+         36   23 000032C0 Shader_Translucent
+
+  Summary
+
+        1000 .data
+        1000 .rdata
+        1000 .reloc
+        3000 .text

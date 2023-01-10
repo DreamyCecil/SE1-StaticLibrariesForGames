@@ -1,0 +1,84 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Shaders.dll
+
+File Type: DLL
+
+  Section contains the following exports for Shaders.dll
+
+    00000000 characteristics
+    3DFEF036 time date stamp Tue Dec 17 12:36:54 2002
+        0.00 version
+           1 ordinal base
+          58 number of functions
+          58 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001000 Shader_Add
+          2    1 00001560 Shader_Base
+          3    2 00001970 Shader_BasePPL_Abs
+          4    3 00001F00 Shader_Base_Transparent
+          5    4 00002360 Shader_Color
+          6    5 00001250 Shader_Desc_Add
+          7    6 00001790 Shader_Desc_Base
+          8    7 00001CE0 Shader_Desc_BasePPL_Abs
+          9    8 00002170 Shader_Desc_Base_Transparent
+         10    9 000024F0 Shader_Desc_Color
+         11    A 00003900 Shader_Desc_Detail
+         12    B 000031A0 Shader_Desc_Detail_Specular
+         13    C 00004600 Shader_Desc_Glass
+         14    D 000048E0 Shader_Desc_Invisible
+         15    E 00003D50 Shader_Desc_LavaDisplace
+         16    F 00004E20 Shader_Desc_MultiLayer
+         17   10 000053F0 Shader_Desc_Reflection
+         18   11 00005B40 Shader_Desc_ReflectionAndSpecular
+         19   12 000061B0 Shader_Desc_Specular
+         20   13 000065A0 Shader_Desc_Translucent
+         21   14 000034E0 Shader_Detail
+         22   15 00002B90 Shader_Detail_Specular
+         23   16 00003F50 Shader_Glass
+         24   17 000048D0 Shader_Invisible
+         25   18 00003BA0 Shader_LavaDisplace
+         26   19 00004AA0 Shader_MultiLayer
+         27   1A 000013B0 Shader_PPCode_Add
+         28   1B 000018F0 Shader_PPCode_Base
+         29   1C 00001E80 Shader_PPCode_BasePPL_Abs
+         30   1D 000022D0 Shader_PPCode_Base_Transparent
+         31   1E 00002600 Shader_PPCode_Color
+         32   1F 00003B10 Shader_PPCode_Detail
+         33   20 00003430 Shader_PPCode_Detail_Specular
+         34   21 00004850 Shader_PPCode_Glass
+         35   22 00004900 Shader_PPCode_Invisible
+         36   23 00003F40 Shader_PPCode_LavaDisplace
+         37   24 00005030 Shader_PPCode_MultiLayer
+         38   25 00005590 Shader_PPCode_Reflection
+         39   26 00005D30 Shader_PPCode_ReflectionAndSpecular
+         40   27 00006350 Shader_PPCode_Specular
+         41   28 000050B0 Shader_Reflection
+         42   29 00005610 Shader_ReflectionAndSpecular
+         43   2A 00005DB0 Shader_Specular
+         44   2B 000063D0 Shader_Translucent
+         45   2C 00001380 Shader_VPCode_Add
+         46   2D 000018C0 Shader_VPCode_Base
+         47   2E 00001E50 Shader_VPCode_BasePPL_Abs
+         48   2F 000022A0 Shader_VPCode_Base_Transparent
+         49   30 000025D0 Shader_VPCode_Color
+         50   31 00003AE0 Shader_VPCode_Detail
+         51   32 000033D0 Shader_VPCode_Detail_Specular
+         52   33 000047D0 Shader_VPCode_Glass
+         53   34 000048F0 Shader_VPCode_Invisible
+         54   35 00003F30 Shader_VPCode_LavaDisplace
+         55   36 00005000 Shader_VPCode_MultiLayer
+         56   37 00005560 Shader_VPCode_Reflection
+         57   38 00005D00 Shader_VPCode_ReflectionAndSpecular
+         58   39 00006320 Shader_VPCode_Specular
+
+  Summary
+
+        5000 .data
+        2000 .rdata
+        1000 .reloc
+        6000 .text

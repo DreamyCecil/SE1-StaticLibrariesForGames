@@ -1,0 +1,61 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Shaders.dll
+
+File Type: DLL
+
+  Section contains the following exports for Shaders.dll
+
+    00000000 characteristics
+    5D8C0D1F time date stamp Thu Sep 26 03:58:07 2019
+        0.00 version
+           1 ordinal base
+          34 number of functions
+          34 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001160 Shader_Add
+          2    1 00001430 Shader_AddDS
+          3    2 000015D0 Shader_Base
+          4    3 00001910 Shader_BaseDS
+          5    4 00001AB0 Shader_Base_Transparent
+          6    5 00001DC0 Shader_Base_TransparentDS
+          7    6 00001F60 Shader_Color
+          8    7 00001210 Shader_Desc_Add
+          9    8 00001440 Shader_Desc_AddDS
+         10    9 000016F0 Shader_Desc_Base
+         11    A 00001920 Shader_Desc_BaseDS
+         12    B 00001BA0 Shader_Desc_Base_Transparent
+         13    C 00001DD0 Shader_Desc_Base_TransparentDS
+         14    D 00001FD0 Shader_Desc_Color
+         15    E 00002C10 Shader_Desc_Detail
+         16    F 00003110 Shader_Desc_Invisible
+         17   10 00003130 Shader_Desc_MultiLayer
+         18   11 000037D0 Shader_Desc_Reflection
+         19   12 00003CD0 Shader_Desc_ReflectionAndSpecular
+         20   13 00004030 Shader_Desc_ReflectionAndSpecularDS
+         21   14 00003B10 Shader_Desc_ReflectionDS
+         22   15 00004210 Shader_Desc_Specular
+         23   16 00004580 Shader_Desc_SpecularDS
+         24   17 00004AA0 Shader_Desc_Translucent
+         25   18 00002ED0 Shader_Detail
+         26   19 00003120 Shader_Invisible
+         27   1A 00003410 Shader_MultiLayer
+         28   1B 00003A10 Shader_Reflection
+         29   1C 00003F20 Shader_ReflectionAndSpecular
+         30   1D 00004200 Shader_ReflectionAndSpecularDS
+         31   1E 00003CC0 Shader_ReflectionDS
+         32   1F 00004450 Shader_Specular
+         33   20 00004730 Shader_SpecularDS
+         34   21 00004CC0 Shader_Translucent
+
+  Summary
+
+        1000 .data
+        2000 .rdata
+        1000 .reloc
+        1000 .rsrc
+        5000 .text
