@@ -1,0 +1,33 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file GameGUI.dll
+
+File Type: DLL
+
+  Section contains the following exports for GameGUI.dll
+
+    00000000 characteristics
+    3F97789D time date stamp Thu Oct 23 09:43:41 2003
+        0.00 version
+           1 ordinal base
+           6 number of functions
+           6 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000025E0 ?OnAudioQuality@CGameGUI@@SAXXZ
+          2    1 000027E0 ?OnInvokeConsole@CGameGUI@@SAXXZ
+          3    2 000025A0 ?OnPlayerSettings@CGameGUI@@SAXXZ
+          4    3 000025B0 ?OnSelectPlayerAndControls@CGameGUI@@SAXXZ
+          5    4 000026D0 ?OnVideoQuality@CGameGUI@@SAXXZ
+          6    5 000028E0 GAMEGUI_Create
+
+  Summary
+
+        2000 .data
+        3000 .rdata
+        1000 .reloc
+        2000 .rsrc
+        4000 .text
