@@ -1,0 +1,61 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file GameGUI.dll
+
+File Type: DLL
+
+  Section contains the following exports for GameGUI.dll
+
+    00000000 characteristics
+    3C8CC602 time date stamp Mon Mar 11 17:58:10 2002
+        0.00 version
+           1 ordinal base
+          34 number of functions
+          34 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00004ED0 ??0MissionGoal@@QAE@ABV0@@Z
+          2    1 000052D0 ??0MissionSystem@@QAE@ABV0@@Z
+          3    2 00004CE0 ??0MissionTimer@@QAE@ABV0@@Z
+          4    3 00001730 ??1MissionTimer@@UAE@XZ
+          5    4 00005060 ??4MissionGoal@@QAEAAV0@ABV0@@Z
+          6    5 00005270 ??4MissionSystem@@QAE?AV0@ABV0@@Z
+          7    6 00004D10 ??4MissionTimer@@QAEAAV0@ABV0@@Z
+          8    7 0000877C ??_7MissionGoal@@6B@
+          9    8 00008780 ??_7MissionSystem@@6B@
+         10    9 0000758C ??_7MissionTimer@@6B@
+         11    A 00004DE0 ?AffectsOutcome@MissionGoal@@QAEX_N@Z
+         12    B 00005240 ?CurrentLevel@MissionSystem@@QAEAAHXZ
+         13    C 00005250 ?GetCurrentLevel@MissionSystem@@QAEHXZ
+         14    D 00004E10 ?GetState@MissionGoal@@QAE?AW4t_mgState@@XZ
+         15    E 00004E00 ?GetType@MissionGoal@@QAE?AW4t_mgType@@XZ
+         16    F 00004E70 ?IsActive@MissionGoal@@QAE_NXZ
+         17   10 00004E20 ?IsCompleted@MissionGoal@@QAE_NXZ
+         18   11 00004E40 ?IsExpired@MissionGoal@@QAE_NXZ
+         19   12 00004E30 ?IsFailed@MissionGoal@@QAE_NXZ
+         20   13 00004E50 ?IsPaused@MissionGoal@@QAE_NXZ
+         21   14 00004E60 ?IsRunning@MissionGoal@@QAE_NXZ
+         22   15 00004EA0 ?Level@MissionGoal@@QAEAAJXZ
+         23   16 00004EB0 ?Metric@MissionGoal@@QAEAAJXZ
+         24   17 000052B0 ?MissionCount@MissionSystem@@QAEHXZ
+         25   18 000048C0 ?OnAudioQuality@CGameGUI@@SAXXZ
+         26   19 00004690 ?OnInvokeConsole@CGameGUI@@SAXXZ
+         27   1A 000047B0 ?OnPlayerSettings@CGameGUI@@SAXXZ
+         28   1B 00004A80 ?OnSelectPlayerAndControls@CGameGUI@@SAXXZ
+         29   1C 000049A0 ?OnVideoQuality@CGameGUI@@SAXXZ
+         30   1D 00005260 ?SetCurrentLevel@MissionSystem@@QAEHH@Z
+         31   1E 00004D40 ?SetOwner@MissionGoal@@QAEXVCEntityPointer@@@Z
+         32   1F 00004EC0 ?Thumbnail@MissionGoal@@QAEAAVCTFileName@@XZ
+         33   20 00004E90 ?UniqueID@MissionGoal@@QAEJXZ
+         34   21 00004630 GAMEGUI_Create
+
+  Summary
+
+        2000 .data
+        4000 .rdata
+        2000 .reloc
+        2000 .rsrc
+        6000 .text

@@ -1,0 +1,40 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Shaders.dll
+
+File Type: DLL
+
+  Section contains the following exports for Shaders.dll
+
+    00000000 characteristics
+    3D7E15CB time date stamp Tue Sep 10 18:54:51 2002
+        0.00 version
+           1 ordinal base
+          14 number of functions
+          14 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001000 Shader_Add
+          2    1 00001220 Shader_Base
+          3    2 000010B0 Shader_Desc_Add
+          4    3 00001340 Shader_Desc_Base
+          5    4 00001EB0 Shader_Desc_Detail
+          6    5 000021B0 Shader_Desc_Generic
+          7    6 00002450 Shader_Desc_Invisible
+          8    7 00002530 Shader_Desc_Translucent
+          9    8 00001620 Shader_Desc_Transparent
+         10    9 00001CF0 Shader_Detail
+         11    A 00002070 Shader_Generic
+         12    B 00002440 Shader_Invisible
+         13    C 00002480 Shader_Translucent
+         14    D 00001540 Shader_Transparent
+
+  Summary
+
+        1000 .data
+        1000 .rdata
+        1000 .reloc
+        2000 .text

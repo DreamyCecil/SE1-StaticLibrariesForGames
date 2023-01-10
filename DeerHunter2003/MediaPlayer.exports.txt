@@ -1,0 +1,54 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file MediaPlayer.dll
+
+File Type: DLL
+
+  Section contains the following exports for MediaPlayer.dll
+
+    00000000 characteristics
+    3D91F9CC time date stamp Wed Sep 25 21:00:44 2002
+        0.00 version
+           1 ordinal base
+          28 number of functions
+          28 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001060 ??0CMediaPlayer@@QAE@ABV0@@Z
+          2    1 00001520 ??0CMediaPlayer@@QAE@PAUHINSTANCE__@@@Z
+          3    2 00001000 ??0CMediaPlayer@@QAE@XZ
+          4    3 00001640 ??1CMediaPlayer@@UAE@XZ
+          5    4 00001140 ??4CMediaPlayer@@QAEAAV0@ABV0@@Z
+          6    5 000030D0 ??_7CMediaPlayer@@6B@
+          7    6 00001010 ?App@CMediaPlayer@@QAEPAUHWND__@@XZ
+          8    7 00001020 ?AudioOnly@CMediaPlayer@@QAEHXZ
+          9    8 00001DE0 ?CheckVisibility@CMediaPlayer@@QAEXXZ
+         10    9 000020D0 ?CloseClip@CMediaPlayer@@QAEXXZ
+         11    A 00002120 ?CloseInterfaces@CMediaPlayer@@QAEXXZ
+         12    B 00002020 ?GetClipFileName@CMediaPlayer@@QAEHPAD@Z
+         13    C 00002360 ?GetFilename@CMediaPlayer@@QAEXPAD0@Z
+         14    D 000025A0 ?HandleGraphEvent@CMediaPlayer@@QAEJXZ
+         15    E 00001D60 ?InitPlayerWindow@CMediaPlayer@@QAEJXZ
+         16    F 00001C30 ?InitVideoWindow@CMediaPlayer@@QAEJHH@Z
+         17   10 00001030 ?Looping@CMediaPlayer@@QAEHXZ
+         18   11 00001D90 ?MoveVideoWindow@CMediaPlayer@@QAEXXZ
+         19   12 00001F10 ?OpenClip@CMediaPlayer@@QAEXXZ
+         20   13 00001E40 ?PauseClip@CMediaPlayer@@QAEXXZ
+         21   14 00001710 ?PlayMedia@CMediaPlayer@@QAEJPBD_N11@Z
+         22   15 00001880 ?PlayMovieInWindow@CMediaPlayer@@QAEJPAD@Z
+         23   16 00001050 ?PlayState@CMediaPlayer@@QAE?AW4PLAYSTATE@@XZ
+         24   17 00001040 ?ShowTitle@CMediaPlayer@@QAEHXZ
+         25   18 00001E90 ?StopClip@CMediaPlayer@@QAEXXZ
+         26   19 00002420 ?ToggleFullScreen@CMediaPlayer@@QAEJXZ
+         27   1A 000021F0 ?ToggleMute@CMediaPlayer@@QAEJXZ
+         28   1B 00002290 ?UpdateMainTitle@CMediaPlayer@@QAEXXZ
+
+  Summary
+
+        1000 .data
+        1000 .rdata
+        1000 .reloc
+        2000 .text

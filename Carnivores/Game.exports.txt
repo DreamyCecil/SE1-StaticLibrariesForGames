@@ -1,0 +1,58 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Game.dll
+
+File Type: DLL
+
+  Section contains the following exports for Game.dll
+
+    00000000 characteristics
+    3C8CC5E9 time date stamp Mon Mar 11 17:57:45 2002
+        0.00 version
+           1 ordinal base
+          32 number of functions
+          32 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0000A2C0 ??0CCharacterContainer@@QAE@AAV0@@Z
+          2    1 000025B0 ??0MissionGoal@@QAE@ABV0@@Z
+          3    2 00002A40 ??0MissionSystem@@QAE@ABV0@@Z
+          4    3 00002330 ??0MissionTimer@@QAE@ABV0@@Z
+          5    4 00002320 ??1MissionTimer@@UAE@XZ
+          6    5 0000A4A0 ??4CCharacterContainer@@QAEAAV0@AAV0@@Z
+          7    6 00002740 ??4MissionGoal@@QAEAAV0@ABV0@@Z
+          8    7 000029E0 ??4MissionSystem@@QAE?AV0@ABV0@@Z
+          9    8 00002360 ??4MissionTimer@@QAEAAV0@ABV0@@Z
+         10    9 000215EC ??_7CCharacterContainer@@6B@
+         11    A 00021520 ??_7MissionGoal@@6B@
+         12    B 00021524 ??_7MissionSystem@@6B@
+         13    C 0002151C ??_7MissionTimer@@6B@
+         14    D 000024C0 ?AffectsOutcome@MissionGoal@@QAEX_N@Z
+         15    E 000029B0 ?CurrentLevel@MissionSystem@@QAEAAHXZ
+         16    F 000029C0 ?GetCurrentLevel@MissionSystem@@QAEHXZ
+         17   10 000024F0 ?GetState@MissionGoal@@QAE?AW4t_mgState@@XZ
+         18   11 000024E0 ?GetType@MissionGoal@@QAE?AW4t_mgType@@XZ
+         19   12 00002550 ?IsActive@MissionGoal@@QAE_NXZ
+         20   13 00002500 ?IsCompleted@MissionGoal@@QAE_NXZ
+         21   14 00002520 ?IsExpired@MissionGoal@@QAE_NXZ
+         22   15 00002510 ?IsFailed@MissionGoal@@QAE_NXZ
+         23   16 00002530 ?IsPaused@MissionGoal@@QAE_NXZ
+         24   17 00002540 ?IsRunning@MissionGoal@@QAE_NXZ
+         25   18 00002580 ?Level@MissionGoal@@QAEAAJXZ
+         26   19 00002590 ?Metric@MissionGoal@@QAEAAJXZ
+         27   1A 00002A20 ?MissionCount@MissionSystem@@QAEHXZ
+         28   1B 000029D0 ?SetCurrentLevel@MissionSystem@@QAEHH@Z
+         29   1C 00002420 ?SetOwner@MissionGoal@@QAEXVCEntityPointer@@@Z
+         30   1D 000025A0 ?Thumbnail@MissionGoal@@QAEAAVCTFileName@@XZ
+         31   1E 00002570 ?UniqueID@MissionGoal@@QAEJXZ
+         32   1F 0000AC10 GAME_Create
+
+  Summary
+
+        8000 .data
+        7000 .rdata
+        5000 .reloc
+       20000 .text

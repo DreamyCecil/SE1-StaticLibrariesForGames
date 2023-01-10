@@ -1,0 +1,108 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file MiddleLink.dll
+
+File Type: DLL
+
+  Section contains the following exports for MiddleLink.dll
+
+    00000000 characteristics
+    3C8BE05A time date stamp Mon Mar 11 01:38:18 2002
+        0.00 version
+           1 ordinal base
+          82 number of functions
+          82 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001DF0 ??0CCharacterContainer@@QAE@AAV0@@Z
+          2    1 00001000 ??0CCharacterContainer@@QAE@XZ
+          3    2 000018A0 ??0MissionGoal@@QAE@ABV0@@Z
+          4    3 000023C0 ??0MissionGoal@@QAE@XZ
+          5    4 00001D30 ??0MissionSystem@@QAE@ABV0@@Z
+          6    5 00003050 ??0MissionSystem@@QAE@XZ
+          7    6 00001620 ??0MissionTimer@@QAE@ABV0@@Z
+          8    7 000049C0 ??0MissionTimer@@QAE@XZ
+          9    8 000010C0 ??1CCharacterContainer@@UAE@XZ
+         10    9 000025B0 ??1MissionGoal@@UAE@XZ
+         11    A 00003080 ??1MissionSystem@@UAE@XZ
+         12    B 00001610 ??1MissionTimer@@UAE@XZ
+         13    C 00002060 ??4CCharacterContainer@@QAEAAV0@AAV0@@Z
+         14    D 00001A30 ??4MissionGoal@@QAEAAV0@ABV0@@Z
+         15    E 00002E40 ??4MissionGoal@@QAEAAV0@PAV0@@Z
+         16    F 00001CD0 ??4MissionSystem@@QAE?AV0@ABV0@@Z
+         17   10 00001650 ??4MissionTimer@@QAEAAV0@ABV0@@Z
+         18   11 00003020 ??8MissionGoal@@QAE_NAAV0@@Z
+         19   12 000060F0 ??_7CCharacterContainer@@6B@
+         20   13 000060F8 ??_7MissionGoal@@6B@
+         21   14 000060FC ??_7MissionSystem@@6B@
+         22   15 000060F4 ??_7MissionTimer@@6B@
+         23   16 00003250 ?ActivateGoals@MissionSystem@@QAEXH@Z
+         24   17 00004650 ?AddToMissions@MissionSystem@@QAE_NVCEntityPointer@@@Z
+         25   18 000017B0 ?AffectsOutcome@MissionGoal@@QAEX_N@Z
+         26   19 000013D0 ?Clear@CCharacterContainer@@QAEXXZ
+         27   1A 00002C60 ?Clear@MissionGoal@@QAEXXZ
+         28   1B 000036A0 ?CountEntities@MissionSystem@@QAEHVCEntityPointer@@W4t_mgAssignment@@@Z
+         29   1C 00004430 ?CurrentGoal@MissionSystem@@QAEPAVMissionGoal@@VCEntityPointer@@_N@Z
+         30   1D 00001CA0 ?CurrentLevel@MissionSystem@@QAEAAHXZ
+         31   1E 000012B0 ?Destroy@CCharacterContainer@@QAEXXZ
+         32   1F 00004950 ?Destroy@MissionSystem@@QAEXXZ
+         33   20 00003180 ?DumpGoals@MissionSystem@@QAEXXZ
+         34   21 000031E0 ?DumpSpecificGoal@MissionSystem@@QAE_NAAPAVMissionGoal@@@Z
+         35   22 00004B00 ?ElapsedTime@MissionTimer@@QAEJ_N@Z
+         36   23 000026F0 ?EndMission@MissionGoal@@QAE?AW4t_mgState@@XZ
+         37   24 00004540 ?EntityHasGoal@MissionSystem@@QAE_NVCEntityPointer@@PAVMissionGoal@@_N@Z
+         38   25 00001280 ?Get@CCharacterContainer@@SAAAV1@XZ
+         39   26 000048E0 ?Get@MissionSystem@@SAAAV1@XZ
+         40   27 000012D0 ?GetContainer@CCharacterContainer@@QAEPAV?$CDynamicContainer@VCEntity@@@@VCTString@@@Z
+         41   28 00001CB0 ?GetCurrentLevel@MissionSystem@@QAEHXZ
+         42   29 00004860 ?GetPlayerEndText@MissionSystem@@QAE?AVCTString@@PAVCEntity@@_N@Z
+         43   2A 000017E0 ?GetState@MissionGoal@@QAE?AW4t_mgState@@XZ
+         44   2B 000017D0 ?GetType@MissionGoal@@QAE?AW4t_mgType@@XZ
+         45   2C 00001840 ?IsActive@MissionGoal@@QAE_NXZ
+         46   2D 000017F0 ?IsCompleted@MissionGoal@@QAE_NXZ
+         47   2E 00001810 ?IsExpired@MissionGoal@@QAE_NXZ
+         48   2F 00001800 ?IsFailed@MissionGoal@@QAE_NXZ
+         49   30 00001820 ?IsPaused@MissionGoal@@QAE_NXZ
+         50   31 00003310 ?IsProperClass@MissionSystem@@QAE_NVCEntityPointer@@PAVMissionGoal@@W4t_QuerryType@1@@Z
+         51   32 00001830 ?IsRunning@MissionGoal@@QAE_NXZ
+         52   33 00001870 ?Level@MissionGoal@@QAEAAJXZ
+         53   34 000030E0 ?LoadGoals@MissionSystem@@QAEXXZ
+         54   35 00003BC0 ?Message@MissionSystem@@QAEXVCEntityPointer@@W4t_msEvent@@PAX@Z
+         55   36 00001880 ?Metric@MissionGoal@@QAEAAJXZ
+         56   37 00001D10 ?MissionCount@MissionSystem@@QAEHXZ
+         57   38 00002A70 ?OwnerHasMostKills@MissionGoal@@QAE_NXZ
+         58   39 000029B0 ?PauseMission@MissionGoal@@QAEXXZ
+         59   3A 00004A90 ?PauseTimer@MissionTimer@@QAE_NXZ
+         60   3B 000049E0 ?ResetTimer@MissionTimer@@QAEXXZ
+         61   3C 00004AC0 ?RestartTimer@MissionTimer@@QAE_NXZ
+         62   3D 000029C0 ?ResumeMission@MissionGoal@@QAEXXZ
+         63   3E 00002A10 ?SetCompleted@MissionGoal@@QAEXXZ
+         64   3F 00001CC0 ?SetCurrentLevel@MissionSystem@@QAEHH@Z
+         65   40 00002A40 ?SetFailed@MissionGoal@@QAEXXZ
+         66   41 00001710 ?SetOwner@MissionGoal@@QAEXVCEntityPointer@@@Z
+         67   42 000029D0 ?SetState@MissionGoal@@QAE?AW4t_mgState@@W42@@Z
+         68   43 000029F0 ?SetTimeToComplete@MissionGoal@@QAEXJ@Z
+         69   44 000029E0 ?SetType@MissionGoal@@QAE?AW4t_mgType@@W42@@Z
+         70   45 000032C0 ?StartAllGoals@MissionSystem@@QAEXXZ
+         71   46 000026C0 ?StartMission@MissionGoal@@QAE_N_N@Z
+         72   47 00004A00 ?StartTimer@MissionTimer@@QAE_NXZ
+         73   48 00004A30 ?StopTimer@MissionTimer@@QAEJ_N@Z
+         74   49 00001890 ?Thumbnail@MissionGoal@@QAEAAVCTFileName@@XZ
+         75   4A 00001860 ?UniqueID@MissionGoal@@QAEJXZ
+         76   4B 00002B90 ?Update@MissionGoal@@QAEXXZ
+         77   4C 00004330 ?UpdateGoals@MissionSystem@@QAEXVCEntityPointer@@@Z
+         78   4D 000082A0 ?_pgCharacterContainer@@3PAVCCharacterContainer@@A
+         79   4E 000082A8 ?_pgMissionSystem@@3PAVMissionSystem@@A
+         80   4F 00008068 ?m_szState@MissionGoal@@2PAPADA
+         81   50 000082A4 ?nContainerReference@@3HA
+         82   51 000082AC ?nReferenceCount@@3HA
+
+  Summary
+
+        1000 .data
+        2000 .rdata
+        1000 .reloc
+        5000 .text
