@@ -4,6 +4,8 @@ This is a collection of static libraries (`.lib`) generated from dynamic link li
 
 The repository also includes `.def` and `.exports.txt` files containing lists of mangled symbols of exported C++ functions and variables.
 
+*You can check [**this repository**](https://github.com/DreamyCecil/SE1-LibrarySymbolDifferences) to see which functions and variables have been added and exported in each game compared to original Serious Sam engines that these games were based on.*
+
 # Notes
 
 - All games are presumably built using MSVC compilers from version 6.0 (**Microsoft Visual C++ 6.0**) to version 10.0 (**Visual Studio 2010**).
