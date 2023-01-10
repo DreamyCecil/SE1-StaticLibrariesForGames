@@ -1,0 +1,5 @@
+.temp/*
+
+*.dll
+*.exe
+*.exp
