@@ -1,0 +1,8 @@
+LIBRARY GAMEGUI 
+EXPORTS 
+?OnAudioQuality@CGameGUI@@QAEXXZ 
+?OnInvokeConsole@CGameGUI@@QAEXXZ 
+?OnPlayerSettings@CGameGUI@@QAEXXZ 
+?OnSelectPlayerAndControls@CGameGUI@@QAEXXZ 
+?OnVideoQuality@CGameGUI@@QAEXXZ 
+?_GameGUI@@3VCGameGUI@@A 

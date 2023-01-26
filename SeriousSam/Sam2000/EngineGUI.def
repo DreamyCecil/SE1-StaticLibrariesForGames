@@ -1,0 +1,10 @@
+LIBRARY ENGINEGUI 
+EXPORTS 
+?BrowseTexture@CEngineGUI@@QAE?AVCTFileName@@V2@PAD1H@Z 
+?CreateTexture@CEngineGUI@@QAE?AVCTFileName@@V2@PAV?$CDynamicArray@VCTFileName@@@@@Z 
+?FileRequester@@YA?AVCTFileName@@PAD00@Z 
+?FileRequester@CEngineGUI@@QAE?AVCTFileName@@PAD00VCTString@@1PAV?$CDynamicArray@VCTFileName@@@@H@Z 
+?GetFullScreenModeFromRegistry@CEngineGUI@@QAEXVCTString@@AAVCDisplayMode@@AAW4OpenGLDriverType@@@Z 
+?SelectMode@CEngineGUI@@QAEXAAVCDisplayMode@@AAW4OpenGLDriverType@@@Z 
+?SetFullScreenModeToRegistry@CEngineGUI@@QAEXVCTString@@VCDisplayMode@@W4OpenGLDriverType@@@Z 
+?_EngineGUI@@3VCEngineGUI@@A 

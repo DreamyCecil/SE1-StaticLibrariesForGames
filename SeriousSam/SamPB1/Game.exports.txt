@@ -1,0 +1,118 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Game.dll
+
+File Type: DLL
+
+  Section contains the following exports for Game.dll
+
+    00000000 characteristics
+    39329B7E time date stamp Mon May 29 19:31:58 2000
+        0.00 version
+           1 ordinal base
+          92 number of functions
+          92 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00011CB0 ??0CButtonAction@@QAE@ABV0@@Z
+          2    1 0000AE00 ??0CButtonAction@@QAE@XZ
+          3    2 00011D40 ??0CControls@@QAE@ABV0@@Z
+          4    3 00009F50 ??0CControls@@QAE@XZ
+          5    4 00011E00 ??0CHighScoreEntry@@QAE@ABV0@@Z
+          6    5 0000CD60 ??0CHighScoreEntry@@QAE@XZ
+          7    6 00011DD0 ??0CLocalPlayer@@QAE@XZ
+          8    7 00011D70 ??0CPlayerInfo@@QAE@ABV0@@Z
+          9    8 000118F0 ??0CPlayerInfo@@QAE@XZ
+         10    9 0000AAF0 ??1CButtonAction@@QAE@XZ
+         11    A 00009FD0 ??1CControls@@QAE@XZ
+         12    B 000107C0 ??1CHighScoreEntry@@QAE@XZ
+         13    C 000107B0 ??1CPlayerInfo@@QAE@XZ
+         14    D 00011C90 ??4CAxisAction@@QAEAAV0@ABV0@@Z
+         15    E 0000AE80 ??4CButtonAction@@QAEAAV0@AAV0@@Z
+         16    F 0000A080 ??4CControls@@QAEAAV0@AAV0@@Z
+         17   10 00011E40 ??4CHighScoreEntry@@QAEAAV0@ABV0@@Z
+         18   11 00011DE0 ??4CLocalPlayer@@QAEAAV0@ABV0@@Z
+         19   12 00011DB0 ??4CPlayerInfo@@QAEAAV0@ABV0@@Z
+         20   13 0000B2E0 ?AddButtonAction@CControls@@QAEAAVCButtonAction@@XZ
+         21   14 0000A210 ?CalculateInfluencesForAllAxis@CControls@@QAEXXZ
+         22   15 00008850 ?ComputerForceOff@CGame@@QAEXXZ
+         23   16 00007000 ?ComputerKeyDown@CGame@@QAEXUtagMSG@@@Z
+         24   17 00006E30 ?ComputerMouseMove@CGame@@QAEXJJ@Z
+         25   18 00007720 ?ComputerRender@CGame@@QAEXPAVCDrawPort@@@Z
+         26   19 00009E70 ?ConsoleChar@CGame@@QAEXUtagMSG@@@Z
+         27   1A 00009630 ?ConsoleKeyDown@CGame@@QAEXUtagMSG@@@Z
+         28   1B 00009520 ?ConsolePrintLastLines@CGame@@QAEXPAVCDrawPort@@@Z
+         29   1C 000090C0 ?ConsoleRender@CGame@@QAEXPAVCDrawPort@@@Z
+         30   1D 0000B080 ?CreateAction@CControls@@QAEXAAVCPlayerAction@@@Z
+         31   1E 000118D0 ?DisableLoadingHook@CGame@@QAEXXZ
+         32   1F 0000AFC0 ?DoButtonActions@CControls@@QAEXXZ
+         33   20 000111C0 ?EnableLoadingHook@CGame@@QAEXPAVCDrawPort@@@Z
+         34   21 00011ED0 ?End@CGame@@SAXXZ
+         35   22 0001E730 ?Flesh@@3VCGame@@A
+         36   23 0000FFF0 ?GameMainLoop@CGame@@QAEXXZ
+         37   24 0000E150 ?GameRedrawView@CGame@@QAEXPAVCDrawPort@@@Z
+         38   25 0000FF90 ?GetLivePlayersCount@CGame@@QAEJXZ
+         39   26 00011E90 ?Initialize@CGame@@SAXABVCTFileName@@@Z
+         40   27 0000C660 ?JoinGame@CGame@@QAEHAAVCNetworkSession@@@Z
+         41   28 00011060 ?LCDBlinkingColor@@YAKKK@Z
+         42   29 00010BC0 ?LCDDrawBox@@YAXJJAAV?$AABBox@J$01@@K@Z
+         43   2A 000110E0 ?LCDDrawPointer@@YAXJJ@Z
+         44   2B 000109C0 ?LCDEnd@@YAXXZ
+         45   2C 00011010 ?LCDFadedColor@@YAKK@Z
+         46   2D 000108D0 ?LCDInit@@YAXXZ
+         47   2E 000109F0 ?LCDPrepare@@YAXM@Z
+         48   2F 00010D80 ?LCDRenderClouds1@@YAXXZ
+         49   30 00010EA0 ?LCDRenderClouds2@@YAXXZ
+         50   31 00010F20 ?LCDRenderClouds2Light@@YAXXZ
+         51   32 00010FA0 ?LCDRenderGrid@@YAXXZ
+         52   33 00010D60 ?LCDScreenBox@@YAXK@Z
+         53   34 00010C70 ?LCDScreenBoxOpenLeft@@YAXK@Z
+         54   35 00010CF0 ?LCDScreenBoxOpenRight@@YAXK@Z
+         55   36 00010A40 ?LCDSetDrawport@@YAXPAVCDrawPort@@@Z
+         56   37 0000C760 ?LoadGame@CGame@@QAEHABVCTFileName@@@Z
+         57   38 0000D4D0 ?LoadPlayersAndControls@CGame@@QAEXXZ
+         58   39 0000A330 ?Load_t@CControls@@QAEXVCTFileName@@@Z
+         59   3A 0000D090 ?Load_t@CGame@@QAEXXZ
+         60   3B 00011910 ?Load_t@CPlayerInfo@@QAEXVCTFileName@@@Z
+         61   3C 0000C480 ?NewGame@CGame@@QAEHABVCTString@@ABVCTFileName@@AAVCSessionProperties@@@Z
+         62   3D 00011FC0 ?QuickTest@CGame@@SAXABVCTFileName@@PAVCDrawPort@@PAVCViewPort@@@Z
+         63   3E 0000AF00 ?Read_t@CButtonAction@@QAEXAAVCTStream@@@Z
+         64   3F 00011A70 ?Read_t@CPlayerInfo@@QAEXPAVCTStream@@@Z
+         65   40 0000B340 ?RemoveButtonAction@CControls@@QAEXAAVCButtonAction@@@Z
+         66   41 0000CA90 ?SaveGame@CGame@@QAEHABVCTFileName@@@Z
+         67   42 0000DC60 ?SavePlayersAndControls@CGame@@QAEXXZ
+         68   43 0000A840 ?Save_t@CControls@@QAEXVCTFileName@@@Z
+         69   44 0000D2B0 ?Save_t@CGame@@QAEXXZ
+         70   45 000119C0 ?Save_t@CPlayerInfo@@QAEXVCTFileName@@@Z
+         71   46 00011C40 ?SetMultiPlayerSession@CGame@@QAEXAAVCSessionProperties@@@Z
+         72   47 00011C20 ?SetQuickStartSession@CGame@@QAEXAAVCSessionProperties@@@Z
+         73   48 00011AD0 ?SetSinglePlayerSession@CGame@@QAEXAAVCSessionProperties@@@Z
+         74   49 0000C880 ?StartDemoPlay@CGame@@QAEHABVCTFileName@@@Z
+         75   4A 0000C9B0 ?StartDemoRec@CGame@@QAEHABVCTFileName@@@Z
+         76   4B 0000CA60 ?StopDemoRec@CGame@@QAEXXZ
+         77   4C 0000CB60 ?StopGame@CGame@@QAEXXZ
+         78   4D 0000A100 ?SwitchAxesToDefaults@CControls@@QAEXXZ
+         79   4E 0000A150 ?SwitchToDefaults@CControls@@QAEXXZ
+         80   4F 0000AF60 ?Write_t@CButtonAction@@QAEXAAVCTStream@@@Z
+         81   50 00011AA0 ?Write_t@CPlayerInfo@@QAEXPAVCTStream@@@Z
+         82   51 0001E2F8 ?_csComputerState@@3W4ConsoleState@@A
+         83   52 0001E358 ?_csConsoleState@@3W4ConsoleState@@A
+         84   53 0001E6F0 ?_lhCTFLevels@@3VCListHead@@A
+         85   54 0001E700 ?_lhCooperativeLevels@@3VCListHead@@A
+         86   55 0001E6D0 ?_lhDarkmatchLevels@@3VCListHead@@A
+         87   56 0001E710 ?_lhDeathmatchLevels@@3VCListHead@@A
+         88   57 0001E720 ?_lhDemos@@3VCListHead@@A
+         89   58 0001E6E0 ?_lhKOTHLevels@@3VCListHead@@A
+         90   59 0001E6C0 ?_lhManualStartLevels@@3VCListHead@@A
+         91   5A 000218FC ?_strConsoleInputBuffer@@3VCTString@@A
+         92   5B 0001CCE4 ?astrAxisNames@@3PAPADA
+
+  Summary
+
+        7000 .data
+        6000 .rdata
+        3000 .reloc
+       14000 .text

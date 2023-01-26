@@ -1,0 +1,89 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Game.dll
+
+File Type: DLL
+
+  Section contains the following exports for Game.dll
+
+    00000000 characteristics
+    387DDA7B time date stamp Thu Jan 13 17:00:27 2000
+        0.00 version
+           1 ordinal base
+          63 number of functions
+          63 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000086A0 ??0CButtonAction@@QAE@ABV0@@Z
+          2    1 00002FB0 ??0CButtonAction@@QAE@XZ
+          3    2 00008730 ??0CControls@@QAE@ABV0@@Z
+          4    3 00002130 ??0CControls@@QAE@XZ
+          5    4 000087C0 ??0CLocalPlayer@@QAE@XZ
+          6    5 00008760 ??0CPlayerInfo@@QAE@ABV0@@Z
+          7    6 000083C0 ??0CPlayerInfo@@QAE@XZ
+          8    7 00002CD0 ??1CButtonAction@@QAE@XZ
+          9    8 000021B0 ??1CControls@@QAE@XZ
+         10    9 000083B0 ??1CPlayerInfo@@QAE@XZ
+         11    A 00008680 ??4CAxisAction@@QAEAAV0@ABV0@@Z
+         12    B 00003030 ??4CButtonAction@@QAEAAV0@AAV0@@Z
+         13    C 00002260 ??4CControls@@QAEAAV0@AAV0@@Z
+         14    D 000087D0 ??4CLocalPlayer@@QAEAAV0@ABV0@@Z
+         15    E 000087A0 ??4CPlayerInfo@@QAEAAV0@ABV0@@Z
+         16    F 00003530 ?AddButtonAction@CControls@@QAEAAVCButtonAction@@XZ
+         17   10 000023F0 ?CalculateInfluencesForAllAxis@CControls@@QAEXXZ
+         18   11 00003230 ?CreateAction@CControls@@QAEXAAVCPlayerAction@@@Z
+         19   12 00003170 ?DoButtonActions@CControls@@QAEXXZ
+         20   13 000043E0 ?EndGameLibrary@CGame@@QAEXXZ
+         21   14 0000F628 ?Flesh@@3VCGame@@A
+         22   15 00007D10 ?GameMainLoop@CGame@@QAEXXZ
+         23   16 00006090 ?GameRedrawView@CGame@@QAEXPAVCDrawPort@@@Z
+         24   17 00003A40 ?InitializeGameLibrary@CGame@@SAXXZ
+         25   18 000046E0 ?JoinGame@CGame@@QAEHAAVCNetworkSession@@@Z
+         26   19 000047D0 ?LoadGame@CGame@@QAEHABVCTFileName@@@Z
+         27   1A 00005230 ?LoadPlayersAndControls@CGame@@QAEXXZ
+         28   1B 00002510 ?Load_t@CControls@@QAEXVCTFileName@@@Z
+         29   1C 00004D60 ?Load_t@CGame@@QAEXXZ
+         30   1D 000083E0 ?Load_t@CPlayerInfo@@QAEXVCTFileName@@@Z
+         31   1E 00004510 ?NewGame@CGame@@QAEHABVCTString@@ABVCTFileName@@AAVCSessionProperties@@@Z
+         32   1F 00005F10 ?QuickLoadGame@CGame@@QAEHVCTFileName@@@Z
+         33   20 00005E10 ?QuickStartGame@CGame@@QAEHVCTFileName@@@Z
+         34   21 000030B0 ?Read_t@CButtonAction@@QAEXAAVCTStream@@@Z
+         35   22 00008540 ?Read_t@CPlayerInfo@@QAEXPAVCTStream@@@Z
+         36   23 00003590 ?RemoveButtonAction@CControls@@QAEXAAVCButtonAction@@@Z
+         37   24 00004AC0 ?SaveGame@CGame@@QAEHABVCTFileName@@@Z
+         38   25 000059C0 ?SavePlayersAndControls@CGame@@QAEXXZ
+         39   26 00002A20 ?Save_t@CControls@@QAEXVCTFileName@@@Z
+         40   27 00004FB0 ?Save_t@CGame@@QAEXXZ
+         41   28 00008490 ?Save_t@CPlayerInfo@@QAEXVCTFileName@@@Z
+         42   29 000087F0 ?SetGameSettingsSaveFileName@CGame@@QAEXVCTFileName@@@Z
+         43   2A 00008630 ?SetMultiPlayerSession@CGame@@QAEXAAVCSessionProperties@@@Z
+         44   2B 00008610 ?SetQuickStartSession@CGame@@QAEXAAVCSessionProperties@@@Z
+         45   2C 000085A0 ?SetSinglePlayerSession@CGame@@QAEXAAVCSessionProperties@@@Z
+         46   2D 000048E0 ?StartDemoPlay@CGame@@QAEHABVCTFileName@@@Z
+         47   2E 000049F0 ?StartDemoRec@CGame@@QAEHABVCTFileName@@@Z
+         48   2F 00004A90 ?StopDemoRec@CGame@@QAEXXZ
+         49   30 00004B60 ?StopGame@CGame@@QAEXXZ
+         50   31 000022E0 ?SwitchAxesToDefaults@CControls@@QAEXXZ
+         51   32 00002330 ?SwitchToDefaults@CControls@@QAEXXZ
+         52   33 00003110 ?Write_t@CButtonAction@@QAEXAAVCTStream@@@Z
+         53   34 00008570 ?Write_t@CPlayerInfo@@QAEXPAVCTStream@@@Z
+         54   35 0000F5E8 ?_lhCTFLevels@@3VCListHead@@A
+         55   36 0000F5F8 ?_lhCooperativeLevels@@3VCListHead@@A
+         56   37 0000F5C8 ?_lhDarkmatchLevels@@3VCListHead@@A
+         57   38 0000F608 ?_lhDeathmatchLevels@@3VCListHead@@A
+         58   39 0000F618 ?_lhDemos@@3VCListHead@@A
+         59   3A 0000F5D8 ?_lhKOTHLevels@@3VCListHead@@A
+         60   3B 0000F5B8 ?_lhManualStartLevels@@3VCListHead@@A
+         61   3C 00012768 ?_pGame@@3PAVCGame@@A
+         62   3D 00012744 ?_strConsoleInputBuffer@@3VCTString@@A
+         63   3E 0000E4EC ?astrAxisNames@@3PAPADA
+
+  Summary
+
+        5000 .data
+        4000 .rdata
+        2000 .reloc
+        9000 .text
