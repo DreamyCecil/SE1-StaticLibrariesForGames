@@ -1,0 +1,35 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.40219.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file EngineGUI.dll
+
+File Type: DLL
+
+  Section contains the following exports for EngineGUI.dll
+
+    00000000 characteristics
+    3AAF6C91 time date stamp Wed Mar 14 16:05:21 2001
+        0.00 version
+           1 ordinal base
+           8 number of functions
+           8 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00007540 ?BrowseTexture@CEngineGUI@@QAE?AVCTFileName@@V2@PAD1H@Z
+          2    1 00005510 ?CreateTexture@CEngineGUI@@QAE?AVCTFileName@@V2@PAV?$CDynamicArray@VCTFileName@@@@@Z
+          3    2 000074C0 ?FileRequester@@YA?AVCTFileName@@PAD000@Z
+          4    3 00006DB0 ?FileRequester@CEngineGUI@@QAE?AVCTFileName@@PAD00VCTString@@1PAV?$CDynamicArray@VCTFileName@@@@H@Z
+          5    4 000060A0 ?GetFullScreenModeFromRegistry@CEngineGUI@@QAEXVCTString@@AAVCDisplayMode@@AAW4OpenGLDriverType@@@Z
+          6    5 00005430 ?SelectMode@CEngineGUI@@QAEXAAVCDisplayMode@@AAW4OpenGLDriverType@@@Z
+          7    6 000061A0 ?SetFullScreenModeToRegistry@CEngineGUI@@QAEXVCTString@@VCDisplayMode@@W4OpenGLDriverType@@@Z
+          8    7 0000EA64 ?_EngineGUI@@3VCEngineGUI@@A
+
+  Summary
+
+        2000 .data
+        4000 .rdata
+        2000 .reloc
+        2000 .rsrc
+        9000 .text

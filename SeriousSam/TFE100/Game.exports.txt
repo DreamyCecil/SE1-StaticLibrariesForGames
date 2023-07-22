@@ -1,0 +1,27 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.40219.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Game.dll
+
+File Type: DLL
+
+  Section contains the following exports for Game.dll
+
+    00000000 characteristics
+    3A9D4848 time date stamp Wed Feb 28 21:49:44 2001
+        0.00 version
+           1 ordinal base
+           1 number of functions
+           1 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0000DC70 GAME_Create
+
+  Summary
+
+        7000 .data
+        6000 .rdata
+        4000 .reloc
+       1C000 .text

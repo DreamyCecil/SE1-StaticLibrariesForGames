@@ -8,8 +8,11 @@ The repository also includes `.def` and `.exports.txt` files containing lists of
 
 # Notes
 
-- All games are presumably built using MSVC compilers from version 6.0 (**Microsoft Visual C++ 6.0**) to version 10.0 (**Visual Studio 2010**).
-- Engine libraries for **Serious Sam** games (from `TFE100c` to `TSE107` under `SeriousSam`) should in theory be completely identical to the libraries included in official SDK packages.
+- Most games are built using MSVC 6.0 compiler from **Microsoft Visual C++ 6.0**.
+  - Latest **Serious Sam Classics: Revolution** libraries are built using MSVC 12.0 from **Visual Studio 2013**.
+  - Some other games might have been built using MSVC 10.0 from **Visual Studio 2010**.
+- Engine libraries for **Serious Sam** games (from `TFE100` to `TSE107` under `SeriousSam`) should in theory be completely identical to the libraries included in official SDK packages.
+  - There are multiple versions of **Serious Engine 1.00**: `TFE100`, `TFE100a`, `TFE100b` and `TFE100c`. They are all completely identical symbol-wise, though `TFE100` does not have a `CInput::GetAxisTransName()` method.
 - **Serious Sam Classics: Revolution** libraries (`SeriousSam/Rev2019`) are generated from the currently latest Steam build, labelled as a 1.03 update.
 - **Bird Hunter 2003** (`BirdHunter2003`) and **Deer Hunter 2003** (`DeerHunter2003`) run on Serious Engine 1.07 instead of 1.50, despite the exclusive usage of SKA (skeletal animation) models in those games.
 - **Bird Hunter 2003** build includes some extra developer files (`BirdHunter2003/Original`), which were most likely left there by mistake.
