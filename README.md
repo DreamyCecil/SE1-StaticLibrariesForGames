@@ -17,8 +17,9 @@ The repository also includes `.def` and `.exports.txt` files containing lists of
 - **Bird Hunter 2003** (`BirdHunter2003`) and **Deer Hunter 2003** (`DeerHunter2003`) run on Serious Engine 1.07 instead of 1.50, despite the exclusive usage of SKA (skeletal animation) models in those games.
 - **Bird Hunter 2003** build includes some extra developer files (`BirdHunter2003/Original`), which were most likely left there by mistake.
   - `GameEXE.map` is particularly interesting because it exposes names of all symbols within the game executable, which would have otherwise been removed because the executable file does not export any symbols.
-- **Carnivores: Cityscape** (`Carnivores`) runs on Serious Engine 1.02 but with an interesting twist to it.
-  - `LoadAny3DFormat_t` and `LoadModelAnimationData_t` symbols are completely identical to those from Serious Engine 1.04, which could mean that **Carnivores: Cityscape** runs on a hypothetical 1.03 version of the engine. But since the differences are so minimal, it still counts as 1.02.
+- **Carnivores: Cityscape** (`Carnivores`) runs on Serious Engine 1.03 (and not 1.02, as initially thought), making it the only game that runs on a version that no Serious Sam game runs on.
+  - The only differences it has from Serious Engine 1.02 are `LoadAny3DFormat_t` and `LoadModelAnimationData_t` symbols, which are completely identical to those from 1.04 patch for **TFE**.
+  - If you look at the game's log, it reports `SeriousEngine Build: 10000.3` at the very beginning, while 1.02 and 1.04 patches for **TFE** report `SeriousEngine Build: 10000.2` and `SeriousEngine Build: 10000.4` respectively.
 - Beta 1.50 patch for **Serious Sam** (`SeriousSam/TSE150`) may be the most pure version of Serious Engine 1.50 available to the public.
 - Engine from the demo version of **Nitro Family** (`NF_Demo`) may be the closest to the original Serious Engine 1.50 in terms of amount of new functionality in third party games.
 - **EuroCops** (`EuroCops`) is based on a slightly newer version of the engine from **Alpha Black Zero** (`AlphaBlackZero`).
